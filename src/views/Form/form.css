@@ -1,0 +1,76 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+  
+}
+:root{
+    --primary-color:#00112c;
+    --gradient-text: linear-gradient(89.97deg,#ae67fa 1.84%,#f49867 102.67%);
+    --gradient-form: linear-gradient(89.97deg,#b287e4 1.84%,#f3c7b0 102.67%);
+
+
+}
+
+.form-section{
+    height: 43rem;
+    border: 2px solid #0e0f1a;
+    background-color: var(--primary-color);
+}
+.form-body{
+color: white;
+background: rgba(255, 255, 255, 0.05);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.1px);
+-webkit-backdrop-filter: blur(4.1px);
+/* border: 1px solid rgba(255, 255, 255, 0.41); */
+width:1030px;
+height: 36rem;
+margin-left: 7rem;
+margin-top: 3rem;
+}
+.form-input{
+    background:var(--gradient-form);
+}
+.form-content{
+    /* border: 2px solid rgb(190, 13, 13);  */
+    /* border-radius: 6px; */
+    margin-top: 12rem;
+    position: absolute;
+    width: 32rem;
+    margin-left: 30rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    position: absolute;
+}
+.form-btn{
+    width: 205px;
+    height: 45px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 9rem;
+    margin-top: 1rem;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    background: linear-gradient(to right, rgb(230, 103, 103), purple);
+}
+    
+
+.form-btn:hover{
+    background: var(--gradient-bar);
+    transition: all .15s ease-in-out;
+}
+.form-img img {
+    width: 20rem;
+    height: 20rem;
+    /* border: 2px solid white; */
+    margin-left: 3rem;
+    margin-top: 11rem;
+    position: absolute;
+}

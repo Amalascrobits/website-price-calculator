@@ -1,0 +1,84 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+  
+}
+:root{
+    --primary-color:#00112c;
+    /* color: white; */
+    --gradient-bar: linear-gradient(103.22deg,#ae67fa -13.86%,#f49867 99.55%);
+    --gradient-text: linear-gradient(89.97deg,#ae67fa 1.84%,#f49867 102.67%);
+}
+.homepage-section{
+    height: 47rem;
+    border: 2px solid #0e0f1a;
+    background-color: var(--primary-color);
+}
+
+.homepage-body{
+color: white;
+background: rgba(255, 255, 255, 0.05);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.1px);
+-webkit-backdrop-filter: blur(4.1px);
+/* border: 1px solid rgba(255, 255, 255, 0.41); */
+width:1030px;
+height:  38rem;
+margin-left: 7rem;
+margin-top: 4rem;
+}
+
+.homepage-heading{
+    /* border: 2px solid white; */
+    margin-left: 19rem;
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(227,227,227);
+    font-style: normal;
+    margin-top: 6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    background:var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.homepage-content{
+    margin-left: 19rem;
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(227,227,227);
+    font-style: normal;
+    margin-top: 6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    font-size: 23px;
+    font-weight: 300;
+    margin-left: 7.5rem;
+    margin-top: 13rem;
+    width: 49rem;
+    text-align: justify;
+    color: white !important;
+
+}    
+.homepagee-btnnn{
+    width: 193px;
+    height: 48px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 26rem;
+    margin-top: 27rem;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    background: linear-gradient(to right, rgb(230, 103, 103), purple);
+
+    
+}
+.homepagee-btnnn:hover{
+    background: var(--gradient-bar);
+    transition: all .15s ease-in-out;
+}

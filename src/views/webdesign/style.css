@@ -1,0 +1,232 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  
+}
+:root{
+    --primary-color:#00112c;
+    --gradient-text: linear-gradient(89.97deg,#ae67fa 1.84%,#f49867 102.67%);
+
+}
+.web-design-section{
+    height: 55rem;
+    border: 0.5px solid #0e0f1a;
+    background-color: var(--primary-color);
+}
+.web-design-body{
+color: white;
+background: rgba(255, 255, 255, 0.05);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.1px);
+-webkit-backdrop-filter: blur(4.1px);
+/* border: 1px solid rgba(255, 255, 255, 0.41); */
+width:1030px;
+height: 44rem;
+margin-left: 7rem;
+margin-top: 3rem;
+}
+.web-design-heading,.web-design-slider-heading,.number-of-pages-heading,.design-cost-heading,.price,.ecom-cost-heading{
+    margin-left: 3rem;
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(227,227,227);
+    font-style: normal;
+    margin-top: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+
+    background:var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+
+}
+.web-design-slider-heading{
+    font-size: 23px;
+    font-weight: 300;
+    margin-top: 8rem;
+}
+.web-design-slider{
+    margin-top: 13rem;
+    position: absolute;
+    width: 59rem;
+    height: 2rem;
+    /* border: 2px solid red; */
+    margin-left: 3rem;
+    color: white;
+    /* color: 'linear-gradient(180deg, #29ABE2 0%, #00EAA6 100%)' */
+}
+.range-left,.range-right{
+    margin-left: 0rem;
+    font-size: 15px;
+    font-weight:bold;
+    color: rgb(227,227,227);
+    font-style: normal;
+    /* margin-top: rem; */
+       /* border: 2px solid red; */
+       display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.range-right{
+    margin-left: 43rem;
+}
+.line,.line2,.line3{
+    border: 0.5px solid #a29999;
+    margin-top: 21rem;
+    position: absolute;
+    /* z-index: 500; */
+    width: 55rem;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    margin-left: 4rem;
+
+}
+.number-of-pages-section{
+    margin-top: 25rem;
+    position: absolute;
+   width:1030px; 
+}
+
+.number-of-pages-heading{
+    font-size: 23px;
+}
+.num-page-slider{
+    margin-top: 4rem;
+    position: absolute;
+    width: 29rem;
+    height: 2rem;
+    /* border: 2px solid red; */
+    margin-left: 28rem;
+    color: white;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+.line2{
+    margin-top: 36rem;
+}
+.design-cost{
+    margin-top: 35rem;
+    position: absolute;
+   width:1030px; 
+}
+.design-cost-heading,.price{
+    font-size: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+    margin-left: 47rem;
+}
+.price{
+    margin-left: 54rem;
+        border: 1px solid rgb(33, 155, 216);
+        padding: 0px 15px;
+}
+
+.ecom-section{
+    height: 35.8rem;
+    border: 2px solid #0e0f1a;
+    background-color: var(--primary-color);
+}
+.ecom-body{
+    color: white;
+background: rgba(255, 255, 255, 0.05);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.1px);
+-webkit-backdrop-filter: blur(4.1px);
+/* border: 1px solid rgba(255, 255, 255, 0.41); */
+width:1030px;
+height: 23rem;
+margin-left: 7rem;
+margin-top: 3rem;
+}
+.ecom-heading{
+    margin-left: 3rem;
+    font-size: 34px;
+    font-weight: 300;
+    color: rgb(227,227,227);
+    font-style: normal;
+    margin-top: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+}
+.ecom-slider{
+    margin-top: 12rem;
+    position: absolute;
+    width: 29rem;
+    height: 2rem;
+    /* border: 2px solid red; */
+    margin-left: 28rem;
+    color: white;
+    display: inline-block;
+}
+.ecom-product-heading{
+    margin-left: 3rem;
+    font-size: 23px;
+    font-weight: 300;
+    color: rgb(255, 250, 250);
+    font-style: normal;
+    margin-top: 12rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+}
+.ecom-slider-label{
+    /* border: 2px solid red; */
+    margin-top :10rem;
+    width: 37rem;
+    position: absolute;
+    margin-left: 25rem;
+}
+.ecom-label-class{
+    margin :2rem;
+    /* margin-left: 3rem; */
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(255, 250, 250);
+    font-style: normal;
+    /* margin-top: 12rem; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* position: absolute; */
+}
+#ecom-label-2{
+    margin-left :56px;
+
+}
+#ecom-label-3{
+    margin-left :86px;
+   
+}
+#ecom-label-4{
+    margin-left :90px;
+   
+}
+.line3{
+    margin-top: 18rem;
+}
+.ecom-cost{
+    margin-top: 16rem;
+    position: absolute;
+   width:1030px; 
+}
+.ecom-cost-heading,.price{
+    font-size: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+    margin-left: 44rem;
+}
+.price{
+    margin-left: 54rem;
+        border: 1px solid rgb(33, 155, 216);
+        padding: 0px 15px;
+     
+}
+
+.web-design-label-num{
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: row;
+    width: 37rem;
+    gap: 5.25rem;
+    margin-top: -0.5rem;
+}

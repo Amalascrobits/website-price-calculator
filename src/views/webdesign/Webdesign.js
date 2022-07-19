@@ -1,0 +1,138 @@
+import React from 'react'
+import { Slider } from '@mui/material'
+import './style.css'
+
+
+const Webdesign = () => {
+  const [mark, setMark] = React.useState(10);
+  const [pager, setPager] = React.useState(5);
+  const SliderChange = (event) => {
+
+    setMark(event.target.value);
+  }
+  const pageNumber = (event) => {
+    setPager(event.target.value);
+  }
+
+  const marks = [
+    {
+      value: 10,
+    },
+    // {
+    //   value: 20
+    // },
+    {
+      value: 30
+    },
+    {
+      value: 50
+    },
+    {
+      value: 70
+    },
+    {
+      value: 90,
+
+    }
+  ]
+  const page = [
+    {
+      value: 5
+    }
+    , { value: 30 }
+    , { value: 55 }
+    , { value: 80  }
+    , { value: 105 }
+  ]
+
+
+  return (
+
+    <>
+
+      <div className='web-design-section'>
+        <div className="web-design-body">
+          <div className='web-design-heading'>Website Design</div>
+          <div className="web-design-slider-heading">
+            Sele‍‍‍ct a style
+          </div>
+
+          <div className="web-design-slider" >
+            <div className="range-left">SIMPLE DESIGN</div>
+            <div className="range-right">COMPLEX DESIGN</div>
+
+
+            <Slider step={20}
+              color="primary"
+              onChange={SliderChange}
+              min={10}
+              max={90}
+              marks={marks}
+              sx={{
+
+                height: 10,
+                color: 'primary',
+                '& .MuiSlider-thumb': {
+                  borderRadius: '1px',
+                },
+
+              }} />
+          </div>
+          <div className="line"></div>
+
+          <div className="number-of-pages-section">
+            <div className="number-of-pages-heading">Number Of Pages</div>
+            <div className="num-page-slider">
+              <Slider
+                marks={page}
+                // valueLabelDisplay='auto'
+                max={105} size="large"
+                step={25}
+                min={5}
+                onChange={pageNumber}
+
+                sx={{
+                  width: 500,
+                  height: 12,
+                  color: 'primary',
+                  '& .MuiSlider-thumb': {
+                    borderRadius: '1px',
+                  },
+
+                }}
+
+              />
+<div className="web-design-label-num">
+  <div id="lb1">1-10</div>
+  <div id="lb2">10-20</div>
+  <div id="lb3">20-30</div>
+  <div id="lb4">30-50</div>
+  <div id="lb5">50-100</div>
+</div>
+
+            </div>
+          </div>
+
+          <div className="line2"></div>
+
+          <div className="design-cost">
+            <div className="design-cost-heading">
+              Design cost
+            </div>
+            <div className="price">
+              ${100 * Number(mark) + (10 * Number(pager))}
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+      </div>
+
+    </>
+  )
+}
+
+export default Webdesign

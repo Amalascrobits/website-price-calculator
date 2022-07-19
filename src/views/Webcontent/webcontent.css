@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  
+}
+:root{
+    --primary-color:#00112c;
+    /* color: white; */
+    --gradient-bar: linear-gradient(103.22deg,#ae67fa -13.86%,#f49867 99.55%);
+    --gradient-text: linear-gradient(89.97deg,#ae67fa 1.84%,#f49867 102.67%);
+}
+.Webcontent-section{
+    height: 55rem;
+    border: 1px solid #0e0f1a;
+    background-color: var(--primary-color);
+}
+.webcontent-body{
+    color: white;
+background: rgba(255, 255, 255, 0.05);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.1px);
+-webkit-backdrop-filter: blur(4.1px);
+/* border: 1px solid rgba(255, 255, 255, 0.41); */
+width:1030px;
+height:  45rem;
+margin-left: 7rem;
+margin-top: 3rem;
+}
+.webcontent-heading{
+    /* border: 2px solid white; */
+    margin-left: 3rem;
+    font-size: 33px;
+    font-weight: bold;
+    color: rgb(227,227,227);
+    font-style: normal;
+    margin-top: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content-writing ,.logo{
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-left: 5rem;
+    color: rgb(227,227,227);
+    font-style: normal;
+    margin-top: 6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    width: 49rem;
+    text-align: justify;
+    margin-top: 11rem;
+    gap: 2rem;
+}
+.textfield{
+  
+    color: rgb(44, 169, 41);
+  background: white;
+}
+.content-input{
+    margin-top: -1rem;
+}
+.content-ending{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: -1rem;
+}
+.logo-part{
+    /* border: 2px solid white; */
+    margin-top: 20rem;
+    margin-left: 5rem;
+    position: absolute;
+    width: 50rem;
+
+}
+.logo{
+    margin-top: -1rem;
+    margin-left: 0rem;
+    font-size: 21px;
+    font-weight: bold;
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content-title{
+    font-weight: bold;
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.web-content-label{
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: row;
+    width: 59rem;
+    gap: 12.25rem;
+    margin-left: 0rem;
+    margin-top: 0rem;
+}
+
+.ecom-cost{
+    margin-top: 16rem;
+    position: absolute;
+   width:1030px; 
+}
+.ecom-cost-heading,.price{
+    font-size: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+    margin-left: 44rem;
+}
+.price{
+    margin-left: 54rem;
+        border: 1px solid rgb(33, 155, 216);
+        padding: 0px 15px;
+     
+}
