@@ -46,9 +46,9 @@ const[input,setInput]=React.useState(0);
         Content Writing : 
     </div>
     <div className="content-input">
-    <TextField className='textfield'  id="outlined-basic"  variant="outlined"  color='secondary' placeholder='Enter number of pages ' onChange={ChangeInput}
+    <TextField className='textfield'   id="standard-basic"  variant="standard"  color='primary' label='Enter number of pages ' onChange={ChangeInput}
     
-    sx={{ input: { color: '#00112c' } }}
+    sx={{ input: { color: '#fff' } ,label:{color:'#A8A8A8',fontSize:'14px'}}}
     
     />
     </div>

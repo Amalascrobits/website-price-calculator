@@ -22,25 +22,25 @@ const Form = () => {
       <div className="form-content">
      <div className="txt1">
       <TextField id="filled-basic" label="Firstname" variant="filled" className="form-input"  required
-        sx={{width:240, color: 'secondary' }}/></div>
+        sx={{width:240, color: 'secondary' ,input: { color: '#fff' } , label:{color:'#fff'}}}/></div>
  
 
         <div className="txt2">
       <TextField id="filled-basic" label="Lastname" variant="filled" className="form-input"  required
-        sx={{ width:240,color: 'secondary' }}/></div>
+        sx={{ width:240,color: 'secondary' ,input: { color: '#fff' } , label:{color:'#fff'}}}/></div>
 
 <div className="txt3">
       <TextField id="filled-basic" label="Email" variant="filled" className="form-input" 
-        required sx={{ width:512,color: 'secondary'  }}/></div>
+        required sx={{ width:512,color: 'secondary',input: { color: '#fff' }  , label:{color:'#fff'}}}/></div>
 
        
 <div className="txt4">
       <TextField id="filled-basic" label="Phone Number" variant="filled" className="form-input"  required
-        sx={{ width:240,color: 'secondary' }}/></div>
+        sx={{ width:240,color: 'secondary' ,input: { color: '#fff' } , label:{color:'#fff'}}}/></div>
 
         <div className="txt5">
       <TextField id="filled-basic" label="Whatsapp Number" variant="filled" className="form-input"  required
-        sx={{ width:240,color: 'secondary' }}/></div>
+        sx={{ width:240,color: 'secondary'  ,input: { color: '#fff' }, label:{color:'#fff'}}}/></div>
    
    <button className="form-btn">
      Submit

@@ -31,7 +31,7 @@ margin-left: 7rem;
 margin-top: 3rem;
 }
 .form-input{
-    background:var(--gradient-form);
+    background-color: #144185;
 }
 .form-content{
     /* border: 2px solid rgb(190, 13, 13);  */

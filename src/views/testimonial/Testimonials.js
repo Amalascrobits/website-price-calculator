@@ -2,8 +2,8 @@ import React from 'react';
 import './testimonial.css';
 import Image1 from "./assests/avatar-1.svg";
 import Image3 from "./assests/avatar-3.svg";
-import whatsapp from "./assests/wp.png"
-import meet from "./assests/meet.svg"
+import whatsapp from "./assests/wpp.svg"
+import calendly from "./assests/calendly.svg"
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
 
@@ -73,9 +73,9 @@ const Testimonials = () => {
     </section>
     <div className="contact">
         <div className="wp-img">
-        <button><a href="https://wa.me/919607020806?text=I'm%20interested%20in%20your%20car%20for%20sale" target='_blank'> <img src={whatsapp} alt="" /></a></button></div>
+        <button><a href="https://wa.me/919607020806?text=I'm%20interested%20in%20your%20car%20for%20sale" target='blank'> <img src={whatsapp} alt="" /></a></button></div>
 <div className="meet-img">
-        <button><a href="https://meet.google.com/" target='_blank'> <img src={meet} alt="" /></a></button></div>
+        <button><a href="https://calendly.com/scrobits/connect_with_arpit?month=2022-07" target='blank'> <img src={calendly} alt="" /></a></button></div>
   
 </div></>
   )

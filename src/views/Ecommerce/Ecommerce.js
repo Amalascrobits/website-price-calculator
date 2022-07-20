@@ -3,6 +3,7 @@ import { Slider } from '@mui/material'
 import './ecom.css'
 
 const Ecommerce = () => {
+
   const [ecom, setEcom] = React.useState(0);
   const [slides, setSlides] = React.useState(0);
 

@@ -19,7 +19,7 @@ const Card = () => {
      {/* <div className='card-element-body-2'>card content</div> */}
      </div>
      </div>
-      
+ 
       </>
   
   )

@@ -9,6 +9,7 @@ import Cards from './views/Development/Card';
 import Form from './views/Form/Form';
 import Testimonials from './views/testimonial/Testimonials';
 import Footer from './views/footer/Footer';
+// import './index.css'
 
 
 // import App from './App';
