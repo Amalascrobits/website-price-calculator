@@ -252,3 +252,6 @@ backdrop-filter: blur(4.1px);
     margin-left: 8px;
     /* margin-top: -2px; */
 }
+#btn-cl{
+    position: fixed;
+}

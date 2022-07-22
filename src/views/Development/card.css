@@ -13,7 +13,7 @@
 }
 
 .card-section{
-  height: 48rem;
+  height: 55rem;
   border: 2px solid #0e0f1a;
   background-color: var(--primary-color);
 }
@@ -26,6 +26,8 @@
   width: 250px;
   height: 400px;
   color: white;
+  cursor: pointer;
+  z-index: 5000;
   border: 1px solid black;
   /* color: black; */
 }
@@ -43,7 +45,7 @@
   -webkit-backdrop-filter: blur(4.1px);
   /* border: 1px solid rgba(255, 255, 255, 0.41); */
   width:1030px;
-  height: 40rem;
+  height: 48rem;
   margin-left: 7rem;
   margin-top: 3rem;
   color: black;
@@ -135,3 +137,51 @@
   -webkit-text-fill-color: transparent;
 }
 
+.dev-cost{
+  margin-left: 3rem;
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(227,227,227);
+    font-style: normal;
+    margin-top: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    background:var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dev-cost-heading{
+  margin-left: 35rem;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(227,227,227);
+  font-style: normal;
+  margin-top: 39rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dev_price{
+  margin-left: 49rem;
+  margin-top: 39rem;
+  border: 1px solid rgb(33, 155, 216);
+  padding: 0px 15px;
+  font-size: 20px;
+   
+}
+.line6{
+  border: 0.5px solid #a29999;
+  margin-top: 21rem;
+  position: absolute;
+  /* z-index: 500; */
+  width: 55rem;
+  border-bottom: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  margin-left: 4rem;
+}
+.line6{
+  margin-top: 40rem;
+}

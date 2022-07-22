@@ -10,7 +10,8 @@ const Cardelement = () => {
     ];
 
     const [card1,setCard1]=React.useState(0);
-    const cardValue=()=>{
+
+    const cardValue=(props)=>{
       // console.log(key);
     console.log(100);
    setCard1(100);
@@ -21,7 +22,7 @@ const Cardelement = () => {
     {
 data.map((user)=>(
 
-        <div className='card-element-body-1' key={user.id}  onClick={cardValue}>
+        <div className='card-element-body-1' key={user.id}  onClick={()=>cardValue}>
         <div className='card-element-name'>{user.type}</div>
         <div className="heading-line-design"></div>
         <div className='card-element-about'> {user.about} </div>
