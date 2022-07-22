@@ -1,50 +1,12 @@
 import React from 'react'
 import { Slider } from '@mui/material'
-import './style.css'
-
+import './style.css';
+import Context from '../../Context/Context';
+import { useContext } from 'react';
 
 const Webdesign = () => {
-  const [mark, setMark] = React.useState(10);
-  const [pager, setPager] = React.useState(5);
-  const SliderChange = (event) => {
-
-    setMark(event.target.value);
-  }
-  const pageNumber = (event) => {
-    setPager(event.target.value);
-  }
-
-  const marks = [
-    {
-      value: 10,
-    },
-    // {
-    //   value: 20
-    // },
-    {
-      value: 30
-    },
-    {
-      value: 50
-    },
-    {
-      value: 70
-    },
-    {
-      value: 90,
-
-    }
-  ]
-  const page = [
-    {
-      value: 5
-    }
-    , { value: 30 }
-    , { value: 55 }
-    , { value: 80  }
-    , { value: 105 }
-  ]
-
+  
+const myContext = useContext(Context);
 
   return (
 
@@ -64,10 +26,10 @@ const Webdesign = () => {
 
             <Slider step={20}
               color="primary"
-              onChange={SliderChange}
+              onChange={myContext.SliderChange}
               min={10}
               max={90}
-              marks={marks}
+              marks={myContext.marks}
               sx={{
 
                 height: 10,
@@ -84,12 +46,12 @@ const Webdesign = () => {
             <div className="number-of-pages-heading">Number Of Pages</div>
             <div className="num-page-slider">
               <Slider
-                marks={page}
+                marks={myContext.page}
                 // valueLabelDisplay='auto'
                 max={105} size="large"
                 step={25}
                 min={5}
-                onChange={pageNumber}
+                onChange={myContext.pageNumber}
 
                 sx={{
                   width: 500,
@@ -120,10 +82,11 @@ const Webdesign = () => {
               Design cost
             </div>
             <div className="price">
-              ${100 * Number(mark) + (10 * Number(pager))}
+              ${100 * Number(myContext.mark)+10*Number(myContext.pager)}
+          
             </div>
           </div>
-
+          {console.log(Number(myContext.mark))}
 
 
 

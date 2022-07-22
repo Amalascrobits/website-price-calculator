@@ -1,40 +1,14 @@
 import React from 'react';
 import { Slider } from '@mui/material';
 import {TextField} from '@mui/material';
-
+import './webcontent.css'
+import Context from '../../Context/Context';
+import { useContext } from 'react';
 
 import './webcontent.css'
 
 const WebContent=()=> {
-    const [slide, setSlide] = React.useState(0);
-const[input,setInput]=React.useState(0);
-
-    const SliderChange = (event) => {
-        setSlide(event.target.value);
-      }
-      const ChangeInput=(event)=>{
-        setInput(event.target.value);
-      }
-
- 
-  const mark=[
-    {
-      value:0,
-   
-    },
-    {
-      value:50,
-      
-    },
-    {
-      value:100,
-      
-    },
-    {
-      value:150,
-      
-    }
-  ]
+    const myContext = useContext(Context);
   
   return (
     <div className="Webcontent-section">
@@ -46,9 +20,9 @@ const[input,setInput]=React.useState(0);
         Content Writing : 
     </div>
     <div className="content-input">
-    <TextField className='textfield'  id="outlined-basic"  variant="outlined"  color='secondary' placeholder='Enter number of pages ' onChange={ChangeInput}
-    
-    sx={{ input: { color: '#00112c' } }}
+    <TextField className='textfield'   id="standard-basic"  variant="standard"  color='primary' label='Enter number of pages ' 
+    onChange={myContext.ChangeInput}
+    sx={{ input: { color: '#fff' } ,label:{color:'#A8A8A8',fontSize:'14px'}}}
     
     />
     </div>
@@ -66,12 +40,12 @@ at  200 Rs./page avg.
   
   <div style={{width:300, margin:40}} >
     <Slider 
-onChange={SliderChange}
+onChange={myContext.SliderChangee}
       color="primary"
       defaultValue={0}
       step={50}
       max={150}
-      marks={mark}
+      marks={myContext.markd}
       sx={{
 width:780,
         height: 10,
@@ -101,7 +75,7 @@ width:780,
     Content cost 
   </div>
   <div className="price">
-  ${(5 * Number(slide) )+ (200* Number(input))}
+  ${(5 * Number(myContext.slide) )+ (200* Number(myContext.input))}
   </div>
 </div>
 

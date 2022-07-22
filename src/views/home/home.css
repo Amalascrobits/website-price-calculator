@@ -14,6 +14,7 @@
     height: 47rem;
     border: 2px solid #0e0f1a;
     background-color: var(--primary-color);
+    /* background-color: red; */
 }
 
 .homepage-body{
@@ -82,3 +83,107 @@ margin-top: 4rem;
     background: var(--gradient-bar);
     transition: all .15s ease-in-out;
 }
+
+
+
+@media (min-width:320px) and (max-width: 480px){
+    .homepage-section {
+        background-color: rgb(166, 226, 14);
+        width: 29.5rem;
+        height: 56rem;
+        }
+
+.homepage-heading {
+    font-size: 188%;
+    margin-left: 2rem;
+}
+.homepage-content {
+    margin-left: 3rem;
+    width: 23rem;
+    font-size: 94%;
+}
+
+
+.homepagee-btnnn {
+    margin-left: 7.5rem;
+}
+.homepage-body {
+    width: 27.2rem;
+    margin: -1%;
+    margin-left: 1rem;
+    margin-top: 3rem;
+}
+.shapes{
+    margin-top: 10rem;
+    position: absolute;
+}
+
+}
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .homepage-section {
+        background-color: rgb(2, 2, 1);
+        width: 92rem;
+        height: 79rem;
+        }
+        .homepage-body {
+            width: 87rem;
+    /* margin: -1%; */
+    margin-left: 2rem;
+    margin-top: 6rem;
+        }
+        .homepage-heading {
+            font-size: 3rem;
+            margin-left: 23rem;
+        }
+        .homepage-content {
+            margin-left: 13rem;
+            width: 59rem;
+            font-size: 1.5rem;
+        }
+        
+        .homepagee-btnnn {
+            margin-left: 35.5rem;
+        }
+      
+        .shapes{
+            margin-top: 6rem;
+            margin-left: 20rem;
+            margin-bottom: 2rem;
+        }
+    }
+
+    @media only screen and (min-width: 1025px) and (max-width: 1200px){
+        .homepage-section {
+            background-color: rgb(20, 180, 180);
+            width: 92rem;
+            height: 79rem;
+            }
+            .homepage-body {
+                width: 87rem;
+        /* margin: -1%; */
+        margin-left: 2rem;
+        margin-top: 6rem;
+            }
+            .homepage-heading {
+                font-size: 3rem;
+                margin-left: 23rem;
+            }
+            .homepage-content {
+                margin-left: 13rem;
+                width: 59rem;
+                font-size: 1.5rem;
+            }
+            
+            .homepagee-btnnn {
+                margin-left: 35.5rem;
+            }
+          
+            .shapes{
+                margin-top: 6rem;
+                margin-left: 20rem;
+                margin-bottom: 2rem;
+            }
+        }

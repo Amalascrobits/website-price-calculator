@@ -1,48 +1,11 @@
 import React from 'react'
 import { Slider } from '@mui/material'
 import './ecom.css'
+import Context from '../../Context/Context';
+import { useContext } from 'react';
 
 const Ecommerce = () => {
-  const [ecom, setEcom] = React.useState(0);
-  const [slides, setSlides] = React.useState(0);
-
-  const SliderChangee = (event) => {
-    setSlides(event.target.value);
-  }
-  const ProductChange = (event) => {
-    setEcom(event.target.value);
-    console.log(event.target.value);
-  }
-
-  const product = [
-    {
-      value: 0,
-    },
-    {
-      value: 25,
-    },
-    { value: 50 },
-    { value: 75 }
-  ]
-
-  const mark = [
-    {
-      value: 0,
-
-    },
-    {
-      value: 50,
-
-    },
-    {
-      value: 100,
-
-    },
-    {
-      value: 150,
-
-    }
-  ]
+    const myContext = useContext(Context);
 
   return (
     <>
@@ -68,12 +31,12 @@ const Ecommerce = () => {
           
 <div className='fun-slider'>
               <Slider
-                onChange={SliderChangee}
+                onChange={myContext.eSliderChange}
                 color="primary"
                 defaultValue={0}
                 step={50}
                 max={150}
-                marks={mark}
+                marks={myContext.emark}
                 sx={{
                   width: 780,
                   height: 10,
@@ -99,12 +62,12 @@ const Ecommerce = () => {
             <div className="ecom-product-heading">Number Of Products</div>
             <div className="ecom-slider">
               <Slider
-                marks={product}
+                marks={myContext.product}
                 // valueLabelDisplay='auto'
                 max={75} size="large"
                 step={25}
                 min={0}
-                onChange={ProductChange}
+                onChange={myContext.ProductChange}
 
                 sx={{
                   width: 500,
@@ -126,7 +89,7 @@ const Ecommerce = () => {
               E-commerce cost 
             </div>
             <div className="ecom-pricee">
-              ${(100 * Number(ecom)) + (10 * Number(slides))}
+              ${(100 * Number(myContext.ecom)) + (10 * Number(myContext.slides))}
             </div>
           </div>
         </div>

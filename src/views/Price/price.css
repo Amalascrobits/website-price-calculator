@@ -1,0 +1,65 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+  
+  }
+  :root{
+    --primary-color:#00112c;
+    --gradient-text: linear-gradient(89.97deg,#ae67fa 1.84%,#f49867 102.67%);
+    --gradient-form: linear-gradient(89.97deg,#b287e4 1.84%,#f3c7b0 102.67%);
+    --gradient-card: linear-gradient(89.97deg,#370072 1.84%,#0b043e 102.67%);
+    --gradient-bar: linear-gradient(103.22deg,#ae67fa -13.86%,#f49867 99.55%);
+  
+  }
+  
+.pp-section{
+    height: 23rem;
+    border: 2px solid #0e0f1a;
+    background-color: var(--primary-color);
+
+}
+.pp-body{
+    color: white;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.1px);
+    -webkit-backdrop-filter: blur(4.1px);
+    /* border: 1px solid rgba(255, 255, 255, 0.41); */
+    width:1030px;
+    height: 19rem;
+    margin-left: 7rem;
+    margin-top: 3rem;
+}
+.pp-heading{
+    margin-left: 21rem;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(227,227,227);
+    font-style: normal;
+    margin-top: 7.7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pp-price{
+    margin-left: 4rem;
+    border: 1px solid rgb(33, 155, 216);
+    padding: 0px 15px;
+    font-size: 25px;
+    margin-left: 13rem;
+    margin-left: 39rem;
+    font-weight: bold;
+    color: rgb(227,227,227);
+    font-style: normal;
+    margin-top: 8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
