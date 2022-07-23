@@ -1,5 +1,5 @@
 import React from 'react'
-import './addon.css'
+import '../../styles/addon.css'
 import { Slider } from '@mui/material'
 import Context from '../../Context/Context';
 import { useContext } from 'react';

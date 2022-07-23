@@ -1,5 +1,6 @@
 import React from 'react'
-import './footer.css'
+// import './footer.css'
+import '../../styles/footer.css'
 import whatsapp from "./assests/wpp.svg"
 import calendly from "./assests/calendly.svg"
 

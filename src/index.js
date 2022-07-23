@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Homepage from './views/home/Homepage';
-import Form from './views/Form/Form';
-import Testimonials from './views/testimonial/Testimonials';
-import Footer from './views/footer/Footer';
+import Homepage from './pages/Homepage';
+import Form from './components/Form/Form';
+import Testimonials from './components/testimonial/Testimonials';
+import Footer from './components/footer/Footer';
 import App from './App'
-import Chooseus from './views/whychooseus/Chooseus';
+import Chooseus from './components/whychooseus/Chooseus';
 
 
 

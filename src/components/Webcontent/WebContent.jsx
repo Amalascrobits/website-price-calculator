@@ -1,11 +1,12 @@
 import React from 'react';
 import { Slider } from '@mui/material';
 import {TextField} from '@mui/material';
-import './webcontent.css'
+// import './webcontent.css'
+import '../../styles/webcontent.css'
 import Context from '../../Context/Context';
 import { useContext } from 'react';
 
-import './webcontent.css'
+// import './webcontent.css'
 
 const WebContent=()=> {
     const myContext = useContext(Context);
