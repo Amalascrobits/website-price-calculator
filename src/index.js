@@ -5,6 +5,7 @@ import Form from './views/Form/Form';
 import Testimonials from './views/testimonial/Testimonials';
 import Footer from './views/footer/Footer';
 import App from './App'
+import Chooseus from './views/whychooseus/Chooseus';
 
 
 
@@ -20,7 +21,10 @@ root.render(
 <App /> 
 <Form />
 <Testimonials />
+<Chooseus />
  <Footer/>
+
+
 
 
 

@@ -3,12 +3,19 @@ import './form.css'
 import { TextField }from '@mui/material'
 // import { Alert }from '@mui/material'
 import img from "./images/img.png"
+import emailjs from 'emailjs-com';
+// import Context from '../../Context/Context';
+// import { useContext } from 'react';
 
 const Form = () => {
-  const onSubmits = (event) => {
-    event.preventDefault();
-  alert("successfully submitted")
-  };
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_ckomnos', 'template_hfl4h06', e.target, 'sj7VvnNHaFOtlrPfJ').then(res=> {
+      console.log(res);
+    }).catch(err=> console.log(err));
+  }
 
   return (
     <>
@@ -18,10 +25,11 @@ const Form = () => {
       <div className="form-img">
         <img src={img} alt="k" />
       </div>
-      <form onSubmit={onSubmits}>
+      {/* onSubmit={onSubmits} */}
+      <form  onSubmit={sendEmail}>
       <div className="form-content">
      <div className="txt1">
-      <TextField id="filled-basic" label="Firstname" variant="filled" className="form-input"  required
+      <TextField id="filled-basic" label="Firstname" variant="filled" className="form-input"  required 
         sx={{width:240, color: 'secondary' ,input: { color: '#fff' } , label:{color:'#fff'}}}/></div>
  
 
@@ -31,9 +39,10 @@ const Form = () => {
 
 <div className="txt3">
       <TextField id="filled-basic" label="Email" variant="filled" className="form-input" 
-        required sx={{ width:512,color: 'secondary',input: { color: '#fff' }  , label:{color:'#fff'}}}/></div>
-
-       
+        required   sx={{ width:512,color: 'secondary',input: { color: '#fff' }  , label:{color:'#fff'}}}/></div>
+{/* onChange={myContext.ChangeInput} 
+{myContext.ChangeInput}
+        */}
 <div className="txt4">
       <TextField id="filled-basic" label="Phone Number" variant="filled" className="form-input"  required
         sx={{ width:240,color: 'secondary' ,input: { color: '#fff' } , label:{color:'#fff'}}}/></div>

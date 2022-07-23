@@ -11,7 +11,7 @@
 }
 .Webcontent-section{
     height: 55rem;
-    border: 1px solid #0e0f1a;
+    border: 1px solid #00112c;
     background-color: var(--primary-color);
 }
 .webcontent-body{
@@ -70,6 +70,7 @@ border-bottom:2px solid rgb(30, 129, 222);
     /* background-color: white; */
     margin-top: 0rem;
     border-bottom: 2px solid white; 
+    width: 20rem;
 }
 
 .content-input{
@@ -127,7 +128,87 @@ border-bottom:2px solid rgb(30, 129, 222);
 }
 .price{
     margin-left: 54rem;
-        border: 1px solid rgb(33, 155, 216);
+        /* border: 1px solid rgb(33, 155, 216); */
         padding: 0px 15px;
-     
+      font-size: 24px;
+        margin-left: 54.5rem;
+        margin-top: 62px;
+        font-weight: bold;
+        margin-left: 55rem;
+    /* border: 1px solid rgb(33, 155, 216); */
+    padding: 0px 15px;
+    font-size: 23px;
+    color: rgb(227, 227, 227);
+    font-style: normal;
+    /* margin-top: 4rem; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.price-c{
+    margin-left: 55rem;
+    /* border: 1px solid rgb(33, 155, 216); */
+    /* padding: 0px 15px; */
+    font-size: 23px;
+}
+
+
+@media (min-width:320px) and (max-width: 480px) {
+   .Webcontent-section {
+        /* background-color: rgb(166, 226, 14); */
+        width: 1047px;
+        height: 56rem;
+    }
+
+ 
+
+    .webcontent-body {
+        width:999px;
+        margin: -1%;
+        margin-left: 1rem;
+        margin-top: 3rem;
+        height: 785px;
+    }
+}
+
+@media (min-width:481px) and (max-width: 768px) {
+
+    .Webcontent-section {
+        /* background-color: rgb(60, 226, 14); */
+        width: 1046px;
+        /* height: 70rem; */
+        height: 885px;
+    }
+
+
+   
+    .webcontent-body{
+        width:999px;
+        margin: -1%;
+        margin-left: 1rem;
+        margin-top: 3rem;
+        height: 785px;
+    }
+
+   
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .Webcontent-section {
+        /* background-color: rgb(11, 138, 216); */
+        width: 92rem;
+        height: 56rem;
+    }
+
+.webcontent-body {
+        width: 87rem;
+        margin-left: 2rem;
+        margin-top: 6rem;
+    }
+
+    
+
 }

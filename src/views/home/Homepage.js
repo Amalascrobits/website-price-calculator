@@ -16,7 +16,7 @@ const Homepage = () => {
     Website cost calculator app is a free tool that helps you to calculate the total cost of your website and find out how much it will cost to build your site. It also provides you with an estimate of how long it will take for you to reach profitability, based on the number of visitors and pages on your site. </div>
 
     <button className="homepagee-btnnn">
-     Get an estimate
+     Get Started
     </button>
 
          

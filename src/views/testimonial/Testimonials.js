@@ -2,8 +2,7 @@ import React from 'react';
 import './testimonial.css';
 import Image1 from "./assests/avatar-1.svg";
 import Image3 from "./assests/avatar-3.svg";
-import whatsapp from "./assests/wpp.svg"
-import calendly from "./assests/calendly.svg"
+
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
 
@@ -45,7 +44,9 @@ const Testimonials = () => {
       slidesPerView={3}
       loop={true}
       grabCursor={true}
-  
+      autoplay={1000}
+      delay={1}
+      speed={10000}
       pagination={{ clickable: true }}
        >
         {data.map(({id, image, title, subtitle, comment}) => {
@@ -61,24 +62,11 @@ const Testimonials = () => {
           )
         })}
       </Swiper></div>
-      <div className="why-choose-us">
-        <div className="why-choose-us-heading">
-        Why choose Us
-        </div>
-        <div className="why-choose-us-content">
-        We have been in this industry for more than 3 years, we are professional and experienced supplier of the high quality software development. Also, we provide great service to our customers, so you can customize your own website with your own logo or design . We offer competitive price and good quality for all kinds of software development according to different styles and specifications .
-        </div>
-      </div>
+  
 
       
     </section>
-    <div className="contact">
-        <div className="wp-img">
-        <button id='#btn-wt'><a href="https://wa.me/919607020806?text=I'm%20interested%20in%20your%20car%20for%20sale" target='blank'> <img src={whatsapp} alt="" /></a></button></div>
-<div className="meet-img">
-        <button id='#btn-cl'><a href="https://calendly.com/scrobits/connect_with_arpit?month=2022-07" target='blank'> <img src={calendly} alt="" /></a></button></div>
-  
-</div></>
+    </>
   )
 }
 export default Testimonials;

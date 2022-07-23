@@ -75,7 +75,7 @@ h1 {
 }
 .addon-head{
     height: 56rem;
-    border: 2px solid #0e0f1a;
+    border: 2px solid #00112c;
     background-color: var(--primary-color);
   }
 
@@ -147,9 +147,10 @@ button {
 .addon-pricee{
 
     margin-left: -7rem;
-    border: 1px solid rgb(33, 155, 216);
-    padding: 0px 31px;
-    margin-top: 37rem;
+    /* border: 1px solid rgb(33, 155, 216); */
+    /* padding: -2px 31px; */
+    font-size: 23px;
+    margin-top: 590px;
 }
     .line4{
         border: 0.5px solid #a29999;
@@ -160,4 +161,67 @@ button {
         border-left: transparent;
         border-right: transparent;
         margin-left: 4rem;
+    }
+
+    
+    @media (min-width:320px) and (max-width: 480px) {
+        .addon-head {
+            /* background-color: rgb(166, 226, 14); */
+            width: 1047px;
+            height: 56rem;
+
+        }
+    
+     
+    
+        .addon {
+            width:999px;
+            margin: -1%;
+            margin-left: 1rem;
+            margin-top: 3rem;
+            height: 785px;
+        }
+    }
+
+    @media (min-width:481px) and (max-width: 768px) {
+
+        .addon-head {
+            /* background-color: rgb(60, 226, 14); */
+            width: 1046px;
+            height: 885px;
+           
+        }
+    
+       
+        .addon {
+            width:999px;
+            margin: -1%;
+            margin-left: 1rem;
+            margin-top: 3rem;
+            height: 785px;
+           
+        }
+    
+        .line,.line2 {
+            width: 55rem;
+            margin-left: 2rem;
+        }
+    
+    }
+    
+    @media only screen and (min-width: 769px) and (max-width: 1024px) {
+        .addon-head  {
+            /* background-color: rgb(11, 138, 216); */
+            width: 92rem;
+            height: 56rem;
+        }
+    
+ .addon {
+            width: 87rem;
+            margin-left: 2rem;
+            margin-top: 6rem;
+        }
+    
+        
+    
     }

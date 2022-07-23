@@ -1,53 +1,63 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
-  
-}
-:root{
-    --primary-color:#00112c;
-    --gradient-text: linear-gradient(89.97deg,#ae67fa 1.84%,#f49867 102.67%);
 
 }
-.web-design-section{
+
+:root {
+    --primary-color: #00112c;
+    --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+
+}
+
+.web-design-section {
     height: 55rem;
-    border: 0.5px solid #0e0f1a;
+    border: 0.5px solid #00112c;
     background-color: var(--primary-color);
 }
-.web-design-body{
-color: white;
-background: rgba(255, 255, 255, 0.05);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(4.1px);
--webkit-backdrop-filter: blur(4.1px);
-/* border: 1px solid rgba(255, 255, 255, 0.41); */
-width:1030px;
-height: 44rem;
-margin-left: 7rem;
-margin-top: 3rem;
+
+.web-design-body {
+    color: white;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.1px);
+    -webkit-backdrop-filter: blur(4.1px);
+    /* border: 1px solid rgba(255, 255, 255, 0.41); */
+    width: 1030px;
+    height: 44rem;
+    margin-left: 7rem;
+    margin-top: 3rem;
 }
-.web-design-heading,.web-design-slider-heading,.number-of-pages-heading,.design-cost-heading,.price,.ecom-cost-heading{
+
+.web-design-heading,
+.web-design-slider-heading,
+.number-of-pages-heading,
+.design-cost-heading,
+.price-d,
+.ecom-cost-heading {
     margin-left: 3rem;
     font-size: 34px;
     font-weight: bold;
-    color: rgb(227,227,227);
+    color: rgb(227, 227, 227);
     font-style: normal;
     margin-top: 4rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
 
-    background:var(--gradient-text);
+    background: var(--gradient-text);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
 
 }
-.web-design-slider-heading{
+
+.web-design-slider-heading {
     font-size: 23px;
     font-weight: 300;
     margin-top: 8rem;
 }
-.web-design-slider{
+
+.web-design-slider {
     margin-top: 13rem;
     position: absolute;
     width: 59rem;
@@ -57,21 +67,27 @@ margin-top: 3rem;
     color: white;
     /* color: 'linear-gradient(180deg, #29ABE2 0%, #00EAA6 100%)' */
 }
-.range-left,.range-right{
+
+.range-left,
+.range-right {
     margin-left: 0rem;
     font-size: 15px;
-    font-weight:bold;
-    color: rgb(227,227,227);
+    font-weight: bold;
+    color: rgb(227, 227, 227);
     font-style: normal;
     /* margin-top: rem; */
-       /* border: 2px solid red; */
-       display: inline-block;
+    /* border: 2px solid red; */
+    display: inline-block;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.range-right{
+
+.range-right {
     margin-left: 43rem;
 }
-.line,.line2,.line3{
+
+.line,
+.line2,
+.line3 {
     border: 0.5px solid #a29999;
     margin-top: 21rem;
     position: absolute;
@@ -83,16 +99,18 @@ margin-top: 3rem;
     margin-left: 4rem;
 
 }
-.number-of-pages-section{
+
+.number-of-pages-section {
     margin-top: 25rem;
     position: absolute;
-   width:1030px; 
+    width: 1030px;
 }
 
-.number-of-pages-heading{
+.number-of-pages-heading {
     font-size: 23px;
 }
-.num-page-slider{
+
+.num-page-slider {
     margin-top: 4rem;
     position: absolute;
     width: 29rem;
@@ -103,55 +121,63 @@ margin-top: 3rem;
     display: inline-block;
     /* border: 2px solid red; */
 }
-.line2{
+
+.line2 {
     margin-top: 36rem;
 }
-.design-cost{
+
+.design-cost {
     margin-top: 35rem;
     position: absolute;
-   width:1030px; 
+    width: 1030px;
 }
-.design-cost-heading,.price{
+
+.design-cost-heading,
+.price-d {
     font-size: 20px;
     display: inline-block;
     /* border: 2px solid red; */
     margin-left: 47rem;
 }
-.price{
+
+.price-d {
     margin-left: 54rem;
-        border: 1px solid rgb(33, 155, 216);
-        padding: 0px 15px;
+    /* border: 1px solid rgb(33, 155, 216); */
+    padding: 0px 15px;
 }
 
-.ecom-section{
+.ecom-section {
     height: 35.8rem;
     border: 2px solid #0e0f1a;
     background-color: var(--primary-color);
 }
-.ecom-body{
+
+.ecom-body {
     color: white;
-background: rgba(255, 255, 255, 0.05);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(4.1px);
--webkit-backdrop-filter: blur(4.1px);
-/* border: 1px solid rgba(255, 255, 255, 0.41); */
-width:1030px;
-height: 23rem;
-margin-left: 7rem;
-margin-top: 3rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.1px);
+    -webkit-backdrop-filter: blur(4.1px);
+    /* border: 1px solid rgba(255, 255, 255, 0.41); */
+    width: 1030px;
+    height: 23rem;
+    margin-left: 7rem;
+    margin-top: 3rem;
 }
-.ecom-heading{
+
+.ecom-heading {
     margin-left: 3rem;
     font-size: 34px;
     font-weight: 300;
-    color: rgb(227,227,227);
+    color: rgb(227, 227, 227);
     font-style: normal;
     margin-top: 4rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
 }
-.ecom-slider{
+
+.ecom-slider {
     margin-top: 12rem;
     position: absolute;
     width: 29rem;
@@ -161,7 +187,8 @@ margin-top: 3rem;
     color: white;
     display: inline-block;
 }
-.ecom-product-heading{
+
+.ecom-product-heading {
     margin-left: 3rem;
     font-size: 23px;
     font-weight: 300;
@@ -171,15 +198,17 @@ margin-top: 3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
 }
-.ecom-slider-label{
+
+.ecom-slider-label {
     /* border: 2px solid red; */
-    margin-top :10rem;
+    margin-top: 10rem;
     width: 37rem;
     position: absolute;
     margin-left: 25rem;
 }
-.ecom-label-class{
-    margin :2rem;
+
+.ecom-label-class {
+    margin: 2rem;
     /* margin-left: 3rem; */
     font-size: 20px;
     font-weight: 300;
@@ -189,44 +218,349 @@ margin-top: 3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* position: absolute; */
 }
-#ecom-label-2{
-    margin-left :56px;
+
+#ecom-label-2 {
+    margin-left: 56px;
 
 }
-#ecom-label-3{
-    margin-left :86px;
-   
+
+#ecom-label-3 {
+    margin-left: 86px;
+
 }
-#ecom-label-4{
-    margin-left :90px;
-   
+
+#ecom-label-4 {
+    margin-left: 90px;
+
 }
-.line3{
+
+.line3 {
     margin-top: 18rem;
 }
-.ecom-cost{
+
+.ecom-cost {
     margin-top: 16rem;
     position: absolute;
-   width:1030px; 
+    width: 1030px;
 }
-.ecom-cost-heading,.price{
+
+.ecom-cost-heading,
+.price-d {
     font-size: 20px;
     display: inline-block;
     /* border: 2px solid red; */
     margin-left: 44rem;
 }
-.price{
+
+.price-d {
     margin-left: 54rem;
-        border: 1px solid rgb(33, 155, 216);
-        padding: 0px 15px;
-     
+    /* border: 1px solid rgb(33, 155, 216); */
+    /* padding: 0px 15px; */
+    font-size: 22px;
 }
 
-.web-design-label-num{
+.num-page-slider {
+    width: 32rem;
+    /* border: 2px solid red; */
+
+}
+
+.web-design-label-num {
     /* border: 2px solid white; */
     display: flex;
     flex-direction: row;
     width: 37rem;
     gap: 5.25rem;
     margin-top: -0.5rem;
+}
+
+@media (min-width:320px) and (max-width: 480px) {
+    .web-design-section {
+        /* background-color: rgb(166, 226, 14); */
+        width: 1047px;
+        height: 56rem;
+    }
+
+    .number-of-pages-heading {
+        font-size: 21px;
+        margin-left: 3rem;
+
+    }
+
+    .webdesign-slider {
+        width: 54rem;
+        /* border: 2px solid rgb(27, 13, 13); */
+    }
+
+    .range-right {
+        margin-left: 41rem;
+        font-size: 15px;
+    
+    }
+
+    .range-left {
+        font-size: 12px;
+    }
+
+    .num-page-slider {
+        width: 34rem;
+        /* border: 2px solid rgb(1, 3, 6); */
+        margin-left: 21rem;
+        margin-top: 3rem;
+    }
+    .web-design-label-num {
+        color: #00112c;
+    }
+
+    #lb1 {
+        font-size: 18px;
+    }
+
+    #lb2 {
+        margin-left: -5px;
+        font-size: 18px;
+        margin-right: -90px;
+    }
+
+    #lb3 {
+        margin-left: 100px;
+        font-size: 18px;
+        margin-right: -139px;
+    }
+
+    #lb4 {
+        margin-left: 146px;
+        font-size: 18px;
+        margin-right: -1309px;
+    }
+
+    #lb5 {
+        margin-left: 1309px;
+        font-size: 18px;
+        margin-right: -1309px;
+    }
+  
+    .design-cost-heading {
+        margin-left: 43rem;
+        margin-top: 5rem;
+        font-size: 28px;
+    }
+
+    .price-d {
+        margin-top: 86px;
+        margin-left: 53rem;
+    }
+
+    .web-design-body {
+        width:999px;
+        margin: -1%;
+        margin-left: 1rem;
+        margin-top: 3rem;
+        height: 785px;
+    }
+
+    .line,.line2 {
+        width: 55rem;
+        margin-left: 2rem;
+    }
+
+}
+
+
+/* /////////////// */
+@media (min-width:481px) and (max-width: 768px) {
+
+    .web-design-section {
+        /* background-color: rgb(60, 226, 14); */
+        width: 1046px;
+        /* height: 70rem; */
+        height: 885px;
+    }
+
+    .number-of-pages-heading {
+        margin-left: 3rem;
+        font-size: 28px;
+
+    }
+    .web-design-heading{
+        font-size: 28px;
+    }
+
+    .webdesign-slider {
+        width: 54rem;
+        /* border: 2px solid rgb(27, 13, 13); */
+    }
+
+    .range-right {
+        margin-left: 41rem;
+        font-size: 15px;
+    
+    }
+
+    .range-left {
+        font-size: 15px;
+    }
+
+    .num-page-slider {
+        width: 34rem;
+        /* border: 2px solid rgb(1, 3, 6); */
+        margin-left: 21rem;
+        margin-top: 3rem;
+    }
+
+    .web-design-label-num {
+        color: #00112c;
+    }
+
+    #lb1 {
+        font-size: 18px;
+    }
+
+    #lb2 {
+        margin-left: -5px;
+        font-size: 18px;
+        margin-right: -90px;
+    }
+
+    #lb3 {
+        margin-left: 100px;
+        font-size: 18px;
+        margin-right: -139px;
+    }
+
+    #lb4 {
+        margin-left: 146px;
+        font-size: 18px;
+        margin-right: -1309px;
+    }
+
+    #lb5 {
+        margin-left: 1309px;
+        font-size: 18px;
+        margin-right: -1309px;
+    }
+
+    .design-cost-heading {
+        margin-left: 43rem;
+        margin-top: 5rem;
+        font-size: 28px;
+    }
+
+    .price-d {
+        margin-top: 86px;
+        margin-left: 53rem;
+    }
+
+    .web-design-body {
+        width:999px;
+        margin: -1%;
+        margin-left: 1rem;
+        margin-top: 3rem;
+        height: 785px;
+    }
+
+    .line,.line2 {
+        width: 55rem;
+        margin-left: 2rem;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .web-design-section {
+        /* background-color: rgb(11, 138, 216); */
+        width: 92rem;
+        height: 79rem;
+    }
+
+    .web-design-body {
+        width: 87rem;
+        margin-left: 2rem;
+        margin-top: 6rem;
+    }
+
+    .webdesign-slider {
+        width: 78rem;
+        /* border: 2px solid red; */
+    }
+
+    .homepage-content {
+        margin-left: 13rem;
+        width: 59rem;
+        font-size: 1.5rem;
+    }
+
+    .range-left {
+        font-size: 23px;
+    }
+
+    .range-right {
+        font-size: 23px;
+        margin-right: -31rem;
+        margin-left: 55rem;
+    }
+
+    .web-design-slider-heading {
+        font-size: 2.5rem;
+    }
+
+    .number-of-pages-heading {
+        font-size: 2rem;
+    }
+
+    .num-page-slider {
+        width: 53rem;
+        /* border: 2px solid red; */
+        margin-left: 27rem;
+        margin-top: 4rem;
+    }
+
+    .web-design-label-num {
+        color: #00112c;
+        /* width: 123rem; */
+    }
+
+    #lb1 {
+        font-size: 20px;
+    }
+
+    #lb2 {
+        margin-left: 71px;
+        font-size: 20px;
+        margin-right: -90px;
+    }
+
+    #lb3 {
+        margin-left: 165px;
+        font-size: 20px;
+        margin-right: -139px;
+    }
+
+    #lb4 {
+        margin-left: 215px;
+        font-size: 20px;
+        margin-right: -1309px;
+    }
+
+    #lb5 {
+        margin-left: 1370px;
+        font-size: 20px;
+        margin-right: -1309px;
+    }
+
+    .web-design-heading {
+        font-size: 52px;
+    }
+
+    .design-cost-heading {
+        margin-left: 67rem;
+        font-size: 28px;
+        margin-right: -234rem;
+    }
+
+    .price-d {
+        margin-left: 77rem;
+        font-size: 27px;
+    }
+
 }

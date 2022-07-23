@@ -15,7 +15,7 @@
 
 .ecom-section{
     height: 56rem;
-    border: 2px solid #0e0f1a;
+    border: 2px solid #00112c;
     background-color: var(--primary-color);
 }
 .ecom-body{
@@ -217,7 +217,69 @@ margin-top: 0rem;}
 .ecom-pricee{
 
     margin-left: 53rem;
-    border: 1px solid rgb(33, 155, 216);
-    padding: 0px 31px;
-    margin-top: 24rem;
+    margin-top: 23.9rem;
+    font-size: 24px;
+}
+@media (min-width:320px) and (max-width: 480px) {
+    .ecom-section {
+        /* background-color: rgb(166, 226, 14); */
+        width: 1047px;
+        height: 56rem;
+        z-index: -10;
+    }
+    .fun-slider{
+    /* border: 2px solid red; */
+    width: 55px;  
+    z-index: 7;
+    }
+
+ 
+
+    .ecom-body{
+        width:999px;
+        margin: -1%;
+        margin-left: 1rem;
+        margin-top: 3rem;
+        height: 785px;
+        z-index: -9;
+    }
+}
+
+@media (min-width:481px) and (max-width: 768px) {
+
+    .ecom-section {
+        /* background-color: rgb(60, 226, 14); */
+        width: 1046px;
+        /* height: 70rem; */
+        height: 885px;
+    }
+
+   
+    .ecom-body {
+        width:999px;
+        margin: -1%;
+        margin-left: 1rem;
+        margin-top: 3rem;
+        height: 785px;
+    }
+
+    .line,.line2 {
+        width: 55rem;
+        margin-left: 2rem;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .ecom-section  {
+        /* background-color: rgb(11, 138, 216); */
+        width: 92rem;
+        height: 56rem;
+    }
+
+.ecom-body {
+        width: 87rem;
+        margin-left: 2rem;
+        margin-top: 6rem;
+    }
 }

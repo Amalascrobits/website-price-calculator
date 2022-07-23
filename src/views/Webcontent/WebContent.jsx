@@ -22,12 +22,12 @@ const WebContent=()=> {
     <div className="content-input">
     <TextField className='textfield'   id="standard-basic"  variant="standard"  color='primary' label='Enter number of pages ' 
     onChange={myContext.ChangeInput}
-    sx={{ input: { color: '#fff' } ,label:{color:'#A8A8A8',fontSize:'14px'}}}
+    sx={{ input: { color: '#fff' } ,label:{color:'#A8A8A8',fontSize:'15px'}}}
     
     />
     </div>
 <div className="content-ending">
-at  200 Rs./page avg.
+at  2$/page avg.
 </div>
 
 </div>
@@ -72,10 +72,10 @@ width:780,
 
 <div className="design-cost">
   <div className="design-cost-heading">
-    Content cost 
+    Content cost :
   </div>
   <div className="price">
-  ${(5 * Number(myContext.slide) )+ (200* Number(myContext.input))}
+  ${(5 * Number(myContext.slide) )+ (2* Number(myContext.input))}
   </div>
 </div>
 

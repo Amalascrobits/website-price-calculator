@@ -14,7 +14,7 @@
 
 .card-section{
   height: 55rem;
-  border: 2px solid #0e0f1a;
+  border: 2px solid #00112c;
   background-color: var(--primary-color);
 }
 
@@ -184,4 +184,148 @@
 }
 .line6{
   margin-top: 40rem;
+}
+
+
+@media (min-width:320px) and (max-width: 480px) {
+  .card-section {
+      /* background-color: rgb(166, 226, 14); */
+      width: 1047px;
+      height: 56rem;
+  }
+  .card-body {
+      width:999px;
+      margin: -1%;
+      margin-left: 1rem;
+      margin-top: 3rem;
+      height: 785px;
+  }
+
+  .line,.line2 {
+      width: 55rem;
+      margin-left: 2rem;
+  }
+
+}
+
+/* //// */
+
+@media (min-width:481px) and (max-width: 768px) {
+
+  .card-section {
+      /* background-color: rgb(60, 226, 14); */
+      width: 1046px;
+      /* height: 70rem; */
+      height: 885px;
+  }
+  .dev-cost-heading {
+      margin-left: 29rem;
+      margin-top: 37.5rem;
+      font-size: 28px;
+  
+  }
+.card-element-price{
+  margin-top: 3rem;
+}
+  .dev_price {
+      margin-top: 607px;
+      margin-left: 49rem;
+  }
+
+  .card-body {
+      width:999px;
+      margin: -1%;
+      margin-left: 1rem;
+      margin-top: 3rem;
+      height: 785px;
+  }
+
+  .line,.line2 {
+      width: 55rem;
+      margin-left: 2rem;
+  }
+  .card-element-body-1{
+      width: 232px;
+      height: 353px;
+      margin-left: 5px;
+      /* position: absolute; */
+  
+  }
+  .card-element-line-design{
+margin-top: 2rem;
+  }
+
+  #cardone{
+      width: 232px;
+      height: 353px;
+      margin-left: 2px;
+  }
+  .cardelement-container{
+      width:799px;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px)  {
+
+  .card-section {
+      /* background-color: rgb(11, 138, 216); */
+      width: 92rem;
+      height: 56rem;
+  }
+  .dev-cost-heading {
+    
+          margin-left: 52rem;
+          margin-top: 37.5rem;
+          margin-right: -19rem;
+          font-size: 31px;
+  }
+
+.card-element-body-1{
+  width: 323px;
+  height: 453px;
+  margin-left: 30px;
+  /* position: absolute; */
+
+}
+.card-element-price{
+  margin-top: 2rem;
+}
+.cardelement-container{
+  width: 1297px;
+}
+.card-heading{
+  font-size: 53px;
+}
+.card-element-about{
+  font-size: 23px;
+}
+  .dev_price {
+      font-size: 23px;
+      margin-top: 612px;
+      margin-left: 73rem;
+  }
+
+  .card-body {
+      width: 87rem;
+      margin-left: 2rem;
+      margin-top: 6rem;
+  }
+
+  .line,.line2 {
+      width: 55rem;
+      margin-left: 2rem;
+  }
+  .card-element-name{
+      font-size: 28px;
+  margin-left: 8rem;
+  }
+  .heading-line-design{
+      width: 8rem;
+      margin-left: 6.15rem;
+  }
+  .card-element-price{
+      font-size: 28px;
+  }
+
 }
