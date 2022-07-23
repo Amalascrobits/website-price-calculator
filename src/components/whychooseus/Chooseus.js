@@ -1,5 +1,6 @@
 import React from 'react'
-import './chooseus.css'
+// import './chooseus.css'
+import '../../styles/chooseus.css'
 import { BsFileCodeFill} from "react-icons/bs";
 import img from "./img/contactus.png"
 import {MdDesignServices} from "react-icons/md";

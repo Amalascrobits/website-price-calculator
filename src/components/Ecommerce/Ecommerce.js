@@ -1,6 +1,7 @@
 import React from 'react'
 import { Slider } from '@mui/material'
-import './ecom.css'
+// import './ecom.css'
+import '../../styles/ecom.css'
 import Context from '../../Context/Context';
 import { useContext } from 'react';
 

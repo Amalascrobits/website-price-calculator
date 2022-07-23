@@ -1,0 +1,268 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+  
+}
+:root{
+    --primary-color:#00112c;
+    /* color: white; */
+    --gradient-bar: linear-gradient(103.22deg,#ae67fa -13.86%,#f49867 99.55%);
+    --gradient-text: linear-gradient(89.97deg,#ae67fa 1.84%,#f49867 102.67%);
+}
+.homepage-section{
+    height: 47rem;
+    border: 2px solid #00112c;
+    background-color: var(--primary-color);
+    /* background-color: red; */
+}
+
+.homepage-body{
+color: white;
+background: rgba(255, 255, 255, 0.05);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.1px);
+-webkit-backdrop-filter: blur(4.1px);
+/* border: 1px solid rgba(255, 255, 255, 0.41); */
+width:1030px;
+height:  38rem;
+margin-left: 7rem;
+margin-top: 4rem;
+}
+
+.homepage-heading{
+    /* border: 2px solid white; */
+    margin-left: 19rem;
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(227,227,227);
+    font-style: normal;
+    margin-top: 6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    background:var(--gradient-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.homepage-content{
+    margin-left: 19rem;
+    font-size: 34px;
+    font-weight: bold;
+    color: rgb(227,227,227);
+    font-style: normal;
+    margin-top: 6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    font-size: 23px;
+    font-weight: 300;
+    margin-left: 7.5rem;
+    margin-top: 13rem;
+    width: 49rem;
+    text-align: justify;
+    color: white !important;
+
+}    
+.homepagee-btnnn{
+    width: 193px;
+    height: 48px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 26rem;
+    margin-top: 27rem;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    background: linear-gradient(to right, rgb(230, 103, 103), purple);
+
+    
+}
+.homepagee-btnnn:hover{
+    background: var(--gradient-bar);
+    transition: all .15s ease-in-out;
+}
+
+
+
+@media (min-width:320px) and (max-width: 480px){
+    .homepage-section {
+        /* background-color: rgb(166, 226, 14); */
+        width: 29.5rem;
+        height: 56rem;
+        }
+
+.homepage-heading {
+    font-size: 188%;
+    margin-left: 2rem;
+}
+.homepage-content {
+    margin-left: 3rem;
+    width: 23rem;
+    font-size: 94%;
+}
+
+
+.homepagee-btnnn {
+    margin-left: 7.5rem;
+}
+.homepage-body {
+    width: 27.2rem;
+    margin: -1%;
+    margin-left: 1rem;
+    margin-top: 3rem;
+}
+.shapes{
+    margin-top: 10rem;
+    position: absolute;
+}
+
+}
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .homepage-section {
+        /* background-color: rgb(2, 2, 1); */
+        width: 92rem;
+        height: 79rem;
+        }
+        .homepage-body {
+            width: 87rem;
+    /* margin: -1%; */
+    margin-left: 2rem;
+    margin-top: 6rem;
+        }
+        .homepage-heading {
+            font-size: 3rem;
+            margin-left: 23rem;
+        }
+        .homepage-content {
+            margin-left: 13rem;
+            width: 59rem;
+            font-size: 1.5rem;
+        }
+        
+        .homepagee-btnnn {
+            margin-left: 35.5rem;
+        }
+      
+        .shapes{
+            margin-top: 6rem;
+            margin-left: 20rem;
+            margin-bottom: 2rem;
+        }
+    }
+
+    @media only screen and (min-width: 1025px) and (max-width: 1200px){
+        .homepage-section {
+            /* background-color: rgb(20, 180, 180); */
+            width: 92rem;
+            height: 79rem;
+            }
+            .homepage-body {
+                width: 87rem;
+        /* margin: -1%; */
+        margin-left: 2rem;
+        margin-top: 6rem;
+            }
+            .homepage-heading {
+                font-size: 3rem;
+                margin-left: 23rem;
+            }
+            .homepage-content {
+                margin-left: 13rem;
+                width: 59rem;
+                font-size: 1.5rem;
+            }
+            
+            .homepagee-btnnn {
+                margin-left: 35.5rem;
+            }
+          
+            .shapes{
+                margin-top: 6rem;
+                margin-left: 20rem;
+                margin-bottom: 2rem;
+            }
+        }
+
+        
+
+    @media (min-width:320px) and (max-width: 480px) {
+        .homepage-section {
+            /* background-color: rgb(166, 226, 14); */
+            width: 1047px;
+            height: 56rem;
+        }
+        .homepage-content {
+            margin-left: 10rem;
+            width: 45rem;
+            font-size: 124%;
+        }
+        .homepagee-btnnn {
+            margin-left: 24.5rem;
+        }
+        .homepage-heading{
+            font-size: 23px;
+        }
+    
+        .homepage-body {
+            width:999px;
+            margin: -1%;
+            margin-left: 1rem;
+            margin-top: 3rem;
+            height: 785px;
+        }
+    }
+
+    @media (min-width:481px) and (max-width: 768px) {
+
+        .homepage-section{
+            /* background-color: rgb(60, 226, 14); */
+            width: 1046px;
+            /* height: 70rem; */
+            height: 885px;
+        }
+    
+       
+        .homepage-body{
+            width:999px;
+            margin: -1%;
+            margin-left: 1rem;
+            margin-top: 3rem;
+            height: 785px;
+        }
+        .homepage-heading{
+            font-size: 23px;
+            margin-left: 23rem;
+        }
+        .line,.line2 {
+            width: 55rem;
+            margin-left: 2rem;
+        }
+    
+    }
+    
+    @media only screen and (min-width: 769px) and (max-width: 1024px) {
+        .homepage-section  {
+            /* background-color: rgb(11, 138, 216); */
+            width: 92rem;
+            height: 56rem;
+        }
+        .homepage-heading{
+            padding: 14px 23px 0px 155px;
+            margin-left: 23rem;
+            /* border: 2px solid green; */
+        }
+    
+ .homepage-body {
+            width: 87rem;
+            margin-left: 2rem;
+            margin-top: 6rem;
+        }
+    
+        
+    
+    }

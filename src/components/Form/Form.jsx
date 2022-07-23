@@ -1,5 +1,6 @@
 import React from "react";
-import './form.css'
+// import './form.css'
+import '../../styles/form.css'
 import { TextField }from '@mui/material'
 // import { Alert }from '@mui/material'
 import img from "./images/img.png"

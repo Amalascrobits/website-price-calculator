@@ -1,13 +1,13 @@
 import React from 'react';
 import { useContext } from 'react';
 import Context from './Context/Context';
-import AddOn from './views/Addon/AddOn';
-import Webdesign from './views/webdesign/Webdesign';
-import WebContent from './views/Webcontent/WebContent';
-import Ecommerce from './views/Ecommerce/Ecommerce';
-import Price from './views/Price/Price'
-import Cardsec from './views/Development/Cardsec';
-import Pdf from './views/Price/Pdf';
+import AddOn from './components/Addon/AddOn';
+import Webdesign from './components/webdesign/Webdesign';
+import WebContent from './components/Webcontent/WebContent';
+import Ecommerce from './components/Ecommerce/Ecommerce';
+import Price from './components/Price/Price'
+import Cardsec from './components/Development/Cardsec';
+import Pdf from './components/Price/Pdf';
 import { jsPDF } from "jspdf";
 
 function App() {
