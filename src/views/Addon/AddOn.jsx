@@ -252,7 +252,7 @@ function AddOn() {
           </table></div>
         <div className="line4"></div>
         <div className="footerr">
-          <div className="addon-costt-heading" >Add-ons cost: </div>
+          <div className="addon-costt-heading" >Add-ons cost : </div>
           <div className='addon-pricee'>${((Number(myContext.sum1)+Number(myContext.sum2)+Number(myContext.sum3)+Number(myContext.sum4)+Number(myContext.sum5)+Number(myContext.sum6)+Number(myContext.sum7)+Number(myContext.sum8)+Number(myContext.sum9)))}</div>
 
 

@@ -9,9 +9,7 @@ const Webdesign = () => {
 const myContext = useContext(Context);
 
   return (
-
     <>
-
       <div className='web-design-section'>
         <div className="web-design-body">
           <div className='web-design-heading'>Website Design</div>
@@ -23,7 +21,7 @@ const myContext = useContext(Context);
             <div className="range-left">SIMPLE DESIGN</div>
             <div className="range-right">COMPLEX DESIGN</div>
 
-
+<div className="webdesign-slider">
             <Slider step={20}
               color="primary"
               onChange={myContext.SliderChange}
@@ -38,7 +36,7 @@ const myContext = useContext(Context);
                   borderRadius: '1px',
                 },
 
-              }} />
+              }} /></div>
           </div>
           <div className="line"></div>
 
@@ -54,7 +52,6 @@ const myContext = useContext(Context);
                 onChange={myContext.pageNumber}
 
                 sx={{
-                  width: 500,
                   height: 12,
                   color: 'primary',
                   '& .MuiSlider-thumb': {
@@ -76,14 +73,13 @@ const myContext = useContext(Context);
           </div>
 
           <div className="line2"></div>
-
+          
           <div className="design-cost">
             <div className="design-cost-heading">
-              Design cost
+              Design cost :
             </div>
-            <div className="price">
+            <div className="price-d">
               ${100 * Number(myContext.mark)+10*Number(myContext.pager)}
-          
             </div>
           </div>
           {console.log(Number(myContext.mark))}

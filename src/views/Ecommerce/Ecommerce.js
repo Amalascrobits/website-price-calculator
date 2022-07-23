@@ -86,7 +86,7 @@ const Ecommerce = () => {
           <div className="line3"></div>
           <div className="ecom-cost">
             <div className="ecom-costt-heading">
-              E-commerce cost 
+              E-commerce cost :
             </div>
             <div className="ecom-pricee">
               ${(100 * Number(myContext.ecom)) + (10 * Number(myContext.slides))}

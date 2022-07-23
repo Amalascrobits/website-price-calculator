@@ -315,8 +315,9 @@ fivRate,
     <Ecommerce />
     <AddOn />
     <Cardsec />
-    <Price />
+    {/* <Price /> */}
     {/* <Pdf /> */}
+    
    </Context.Provider>
    </>
   );
