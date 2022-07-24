@@ -25,8 +25,12 @@ Mail: contact@scrobits.com
 
       <div className="contactt">
       <div className="wp-imgg">
+        <div className="link1">
+        <a href="https://wa.me/919607020806?text=I'm%20interested%20in%20your%20car%20for%20sale">WhatsApp</a></div>
        <button id='#btn-wtt'><a href="https://wa.me/919607020806?text=I'm%20interested%20in%20your%20car%20for%20sale" target='blank'> <img src={whatsapp} alt="" /></a></button></div>
 <div className="meet-imgg">
+  <div className="link2">
+  <a href="https://calendly.com/scrobits/connect_with_arpit?month=2022-07">Calendly</a></div>
         <button id='#btn-cl1'><a href="https://calendly.com/scrobits/connect_with_arpit?month=2022-07" target='blank'> <img src={calendly} alt="" /></a></button></div>
   
 </div>

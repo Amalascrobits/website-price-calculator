@@ -42,7 +42,7 @@ margin-top: 3rem;
     -webkit-text-fill-color: transparent;
 }
 .content-writing ,.logo{
-    /* border: 2px solid white; */
+ 
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -61,13 +61,13 @@ margin-top: 3rem;
 .textfield{
   padding: 0%;
     color: rgb(44, 169, 41);
-    /* background-color: #144185; */
+    
 }
 .textfield:hover{
 border-bottom:2px solid rgb(30, 129, 222);
 }
 #standard-basic{
-    /* background-color: white; */
+  
     margin-top: 0rem;
     border-bottom: 2px solid white; 
     width: 20rem;
@@ -83,7 +83,7 @@ border-bottom:2px solid rgb(30, 129, 222);
     margin-left: -1rem;
 }
 .logo-part{
-    /* border: 2px solid white; */
+
     margin-top: 20rem;
     margin-left: 5rem;
     position: absolute;
@@ -105,6 +105,7 @@ border-bottom:2px solid rgb(30, 129, 222);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .web-content-label{
     /* border: 2px solid white; */
     display: flex;
@@ -118,7 +119,7 @@ border-bottom:2px solid rgb(30, 129, 222);
 .ecom-cost{
     margin-top: 16rem;
     position: absolute;
-   width:1030px; 
+    width:1030px; 
 }
 .ecom-cost-heading,.price{
     font-size: 20px;
@@ -126,38 +127,20 @@ border-bottom:2px solid rgb(30, 129, 222);
     /* border: 2px solid red; */
     margin-left: 44rem;
 }
+
 .price{
-    margin-left: 54rem;
-        /* border: 1px solid rgb(33, 155, 216); */
-        padding: 0px 15px;
-      font-size: 24px;
-        margin-left: 54.5rem;
-        margin-top: 62px;
-        font-weight: bold;
-        margin-left: 55rem;
-    /* border: 1px solid rgb(33, 155, 216); */
-    padding: 0px 15px;
-    font-size: 23px;
-    color: rgb(227, 227, 227);
-    font-style: normal;
-    /* margin-top: 4rem; */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: absolute;
-    background: var(--gradient-text);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.price-c{
     margin-left: 55rem;
-    /* border: 1px solid rgb(33, 155, 216); */
-    /* padding: 0px 15px; */
-    font-size: 23px;
+    padding: 0px 15px;
+    margin-top: 4rem;
+    color: #fefefe;
+    font-size: 26px;
 }
+
+
 
 
 @media (min-width:320px) and (max-width: 480px) {
    .Webcontent-section {
-        /* background-color: rgb(166, 226, 14); */
         width: 1047px;
         height: 56rem;
     }

@@ -24,12 +24,13 @@
     width: 23px;
     position: absolute;
     margin-top: 5rem;
-    margin-left: 70rem;
+    margin-left: 63rem;
     /* padding: 10px; */
 }
 .wp-imgg img{
     width: 33px;
     margin: 2px;
+    margin-bottom: 1rem;
 
 }
 .meet-imgg img{
@@ -44,7 +45,26 @@
     position: absolute;
     margin-left: 26rem;
 }
-
+.link1{
+    margin-left: 3rem;
+  
+    position: absolute;
+    margin-top: 6px;
+    text-decoration: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+}
+.link2{
+    margin-left: 53px;
+    color: white;
+    position: absolute;
+    margin-top: 11px;
+}
 
 
 @media (min-width:320px) and (max-width: 480px) {
