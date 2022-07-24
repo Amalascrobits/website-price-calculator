@@ -34,7 +34,6 @@
 .web-design-slider-heading,
 .number-of-pages-heading,
 .design-cost-heading,
-.price-d,
 .ecom-cost-heading {
     margin-left: 3rem;
     font-size: 34px;
@@ -44,7 +43,6 @@
     margin-top: 4rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
-
     background: var(--gradient-text);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -253,10 +251,12 @@
 }
 
 .price-d {
+    
     margin-left: 54rem;
-    /* border: 1px solid rgb(33, 155, 216); */
-    /* padding: 0px 15px; */
-    font-size: 22px;
+    font-size: 25px;
+    margin-top: 4rem;
+    color: white;
+
 }
 
 .num-page-slider {

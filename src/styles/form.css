@@ -31,7 +31,8 @@ margin-left: 7rem;
 margin-top: 3rem;
 }
 .form-input{
-    background-color: #144185;
+    /* background-color: #144185; */
+    border-radius:10px ;
 }
 .form-content{
     /* border: 2px solid rgb(190, 13, 13);  */
@@ -74,6 +75,12 @@ margin-top: 3rem;
     margin-top: 11rem;
     position: absolute;
 }
+.form-input .MuiFilledInput-root{
+    border-radius: 10px;
+    background: #144185;
+}
+
+
 @media (min-width:320px) and (max-width: 480px) {
     .form-section {
          /* background-color: rgb(166, 226, 14); */

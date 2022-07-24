@@ -10,6 +10,7 @@ import Cardsec from './components/Development/Cardsec';
 import Pdf from './components/Price/Pdf';
 import { jsPDF } from "jspdf";
 
+
 function App() {
   const [mark, setMark] = React.useState(10);
   const [pager, setPager] = React.useState(5);
@@ -74,6 +75,8 @@ function App() {
     updateSum9(event.target.value);
 
   }
+
+
   
 
   const tfiRate = [
@@ -285,6 +288,7 @@ updateSum7,
 updateSum8,
 updateSum9,
 
+
 tfiRate,
 twoRate,
 fifRate,
@@ -310,6 +314,7 @@ fivRate,
   return (
    <>
    <Context.Provider value={userSettings}>
+
     <Webdesign/>
     <WebContent />
     <Ecommerce />

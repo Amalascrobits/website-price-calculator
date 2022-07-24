@@ -31,7 +31,7 @@ const Form = () => {
       <div className="form-content">
      <div className="txt1">
       <TextField id="filled-basic" label="Firstname" variant="filled" className="form-input"  required 
-        sx={{width:240, color: 'secondary' ,input: { color: '#fff' } , label:{color:'#fff'}}}/></div>
+      sx={{width:240, color: 'secondary' ,input: { color: '#fff'} , label:{color:'#fff'}}}/></div>
  
 
         <div className="txt2">

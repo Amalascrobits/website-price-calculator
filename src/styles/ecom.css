@@ -100,7 +100,7 @@ margin-top: 3rem;
     position: absolute;
    width:1030px; 
 }
-.ecom-cost-heading,.price{
+.ecom-cost-heading{
     font-size: 20px;
     display: inline-block;
     /* border: 2px solid red; */
@@ -108,7 +108,7 @@ margin-top: 3rem;
 }
 .price{
     margin-left: 55rem;
-        border: 1px solid rgb(33, 155, 216);
+        /* border: 1px solid rgb(33, 155, 216); */
         padding: 0px 15px;
      
 }
@@ -198,7 +198,7 @@ margin-top: 0rem;}
     z-index: 10000;
 }
 
-.ecom-costt-heading,.ecom-pricee{
+.ecom-costt-heading{
     font-size: 20px;
     display: inline-block;
     /* border: 2px solid red; */
@@ -215,10 +215,10 @@ margin-top: 0rem;}
     -webkit-text-fill-color: transparent;
 }
 .ecom-pricee{
-
-    margin-left: 53rem;
-    margin-top: 23.9rem;
-    font-size: 24px;
+    margin-left: 856px;
+    font-size: 25px;
+    margin-top: 24rem;
+    color: white;
 }
 @media (min-width:320px) and (max-width: 480px) {
     .ecom-section {

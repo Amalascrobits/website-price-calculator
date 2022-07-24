@@ -12,7 +12,7 @@ const myContext = useContext(Context);
   return (
     <>
       <div className='web-design-section'>
-        <div className="web-design-body">
+        <div className="web-design-body" >
           <div className='web-design-heading'>Website Design</div>
           <div className="web-design-slider-heading">
             Sele‍‍‍ct a style

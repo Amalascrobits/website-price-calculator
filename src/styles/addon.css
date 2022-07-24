@@ -40,9 +40,7 @@ tr {
 }
 
 h1 {
-    /* text-align: left;
-    padding-left: 440px;
-    color:#fff ; */
+
     margin-left: 3rem;
     font-size: 33px;
     font-weight: bold;
@@ -56,10 +54,6 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
-/* .addon {
-    text-align: start;
-    padding-left: 30px;
-} */
 .addon{
     color: white;
     background: rgba(255, 255, 255, 0.05);
@@ -67,7 +61,6 @@ h1 {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(4.1px);
     -webkit-backdrop-filter: blur(4.1px);
-    /* border: 1px solid rgba(255, 255, 255, 0.41); */
     width:1030px;
     height: 47rem;
     margin-left: 7rem;
@@ -84,7 +77,6 @@ h1 {
     border: 2px solid red;
     border-radius: 6rem;
     position: absolute;
-    /* margin-bottom: 6rem; */
     width: 5rem;
     height: 23.5px;
     margin-left: 0rem;
@@ -96,15 +88,6 @@ button {
     border: transparent;
     cursor: pointer;
 }
-
-/* .to::before{
-    content: '';
-    background-color: white;
-    border: 2px solid red;
-    padding: 9px;
-    border-radius: 50%;
-} */
-
 .off{
     z-index: 23;
 }
@@ -118,7 +101,6 @@ button {
     display: none;
 }
 .addon-table{
-    /* border: 2px solid red;  */
     margin-top: 12rem;
     position: absolute;
     width: 100%;
@@ -129,10 +111,10 @@ button {
     margin-left: 2rem;
 }
 
-.addon-costt-heading,.addon-pricee{
+.addon-costt-heading{
+
     font-size: 20px;
     display: inline-block;
-    /* border: 2px solid red; */
     margin-left: -16rem;
     font-weight: bold;
     color: rgb(227,227,227);
@@ -143,14 +125,30 @@ button {
     background: var(--gradient-text);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
 }
 .addon-pricee{
 
+    /* font-size: 20px;
+    display: inline-block;
+    margin-left: -16rem;
+    font-weight: bold;
+    color: rgb(227,227,227);
+    font-style: normal;
+    margin-top: 37rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute; */
+
+
+    position: absolute;
     margin-left: -7rem;
-    /* border: 1px solid rgb(33, 155, 216); */
-    /* padding: -2px 31px; */
     font-size: 23px;
     margin-top: 590px;
+    margin-left: 856px;
+    font-size: 25px;
+    margin-top: 37rem;
+    color: white;
+
 }
     .line4{
         border: 0.5px solid #a29999;
