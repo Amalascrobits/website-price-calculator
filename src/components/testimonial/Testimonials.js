@@ -23,7 +23,31 @@ const data = [
       "A perfect and elegant company which can provide the business solutions up to the mark. Website is so convincing that any of the client can trust on the company easily 👍",
   },
   {
+    id: 1,
+    image: Image1,
+    title: "Prasad Desai",
+    subtitle: "Product designer at Dribble",
+    comment:
+      "A perfect and elegant company which can provide the business solutions up to the mark. Website is so convincing that any of the client can trust on the company easily 👍",
+  },
+  {
     id: 2,
+    image: Image1,
+    title: "Prasad Desai",
+    subtitle: "Product designer at Dribble",
+    comment:
+      "A perfect and elegant company which can provide the business solutions up to the mark. Website is so convincing that any of the client can trust on the company easily 👍",
+  },
+  {
+    id: 3,
+    image: Image1,
+    title: "Prasad Desai",
+    subtitle: "Product designer at Dribble",
+    comment:
+      "A perfect and elegant company which can provide the business solutions up to the mark. Website is so convincing that any of the client can trust on the company easily 👍",
+  },
+  {
+    id: 4,
     image: Image3,
     title: "Parth Bhosale",
     subtitle: "Product designer at Dribble",
@@ -33,6 +57,7 @@ const data = [
 ];
 
 const Testimonials = () => {
+
   return (
     <>
     <section className='testimonials-container-section' >
@@ -45,9 +70,11 @@ const Testimonials = () => {
       slidesPerView={3}
       loop={true}
       grabCursor={true}
-      autoplay={1000}
-      delay={1}
-      speed={10000}
+      autoplay={true}
+      delay={3000}
+      speed={1000}
+      // disableOnInteraction={true}
+      reverseDirection={true}
       pagination={{ clickable: true }}
        >
         {data.map(({id, image, title, subtitle, comment}) => {

@@ -217,8 +217,9 @@ margin-top: 0rem;}
 .ecom-pricee{
     margin-left: 856px;
     font-size: 25px;
-    margin-top: 24rem;
+    margin-top: 23.8rem;
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 @media (min-width:320px) and (max-width: 480px) {
     .ecom-section {

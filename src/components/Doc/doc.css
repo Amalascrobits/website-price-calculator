@@ -1,0 +1,127 @@
+.footer-doc{
+    /* background: #031b34; */
+    height: 18rem;
+    width: 32rem;
+    margin-top: 4rem;
+    color: rgb(1, 0, 0);
+    position: absolute;
+    }
+.footer-content-doc{
+    text-align: center;
+    margin-left:12rem ;
+    margin-top: 247px;
+    position: absolute;
+    font-size: 15px;
+}
+.address-doc{
+    /* border: 2px solid white; */
+    width: 200px;
+    padding: 26px;
+    margin-top: 3rem;
+    position: absolute;
+    /* margin-left: 1rem; */
+}
+.contactt-doc{
+    /* border: 2px solid white; */
+    width: 23px;
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    /* padding: 10px; */
+}
+.wp-imgg img{
+    width: 33px;
+    margin: 2px;
+    margin-bottom: 1rem;
+
+}
+.meet-imgg-doc img{
+    width: 33px;
+    margin: 2px;
+}
+.get-doc{
+    width: 402px;
+    font-size: 16px;
+    padding: 26px;
+    margin-top: 3rem;
+    position: absolute;
+    margin-left: 15rem;
+}
+.link1-doc{
+    margin-left: 3rem;
+    position: absolute;
+    margin-top: 6px;
+    text-decoration: none;
+}
+a{
+    color: rgb(17, 16, 16);
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+}
+.link2-doc{
+    margin-left: 53px;
+    color: rgb(1, 1, 1);
+    position: absolute;
+    margin-top: 11px;
+}
+
+
+.doc-section{
+    margin-left: 2rem;
+    margin-top: 4rem;
+    /* height: 50rem; */
+
+}
+.doc-heading{
+    margin-left: 16rem;
+    font-size: 23px;
+    color: rgb(40, 153, 201);
+}
+
+.personal-info{
+    margin-top: 2rem;
+    color: rgb(6, 58, 113);
+    margin-bottom:2rem ;
+}
+.doc-field{
+
+    margin-top: 2rem;
+/* border: 2px solid red; */
+
+}
+.devl-body{
+   /* border: 2px solid red; */
+    display: flex;
+    gap: 5rem;
+    margin-left: 2rem;
+    /* margin-top: 2rem; */
+    position: absolute;
+}
+.table-doc{
+    border: 2px solid black;
+    width: 45rem;
+    height: 23rem;
+    text-align: center;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+ tr{
+    border: 1px solid black;
+}
+.doc-td{
+    border: 1px solid rgb(73, 39, 39);
+}
+.doc-text{
+    margin-right: 2rem;
+    text-align: justify;
+}
+
+
+
+
+
+    
+
+

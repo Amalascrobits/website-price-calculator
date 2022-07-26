@@ -27,7 +27,7 @@ const Chooseus = () => {
     <div className="chooseus-right">
   <div className="li">
         <div className="web-dev">Web Development</div>
-        <div className="web-dev-content1">Bespke professional websites development with limitless possibilities</div></div>
+        <div className="web-dev-content1">Bespoke professional websites development with limitless possibilities</div></div>
         <div className="icon"><BsFileCodeFill size={18}/></div>
 
         <div className="li">

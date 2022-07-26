@@ -23,7 +23,8 @@ const Cardsec = () => {
         <div className='card-element-about'> A development company small business is a new type of business that is designed to provide capital to businesses with less than $2 million. </div>
         <div className="card-element-line-design"></div>
         <div className="card-element-price-contaniner">
-        <div className='card-element-price'> ${10*(100 * Number(myContext.mark)+10*Number(myContext.pager)+ 5*Number(myContext.slide) + 2*Number(myContext.input)+100 * Number(myContext.ecom) + 10 * Number(myContext.slides)+Number(myContext.sum1)+Number(myContext.sum2)+Number(myContext.sum3)+Number(myContext.sum4)+Number(myContext.sum5)+Number(myContext.sum6)+Number(myContext.sum7)+Number(myContext.sum8)+Number(myContext.sum9)+Number(myContext.dev))}/page </div></div>
+        <div className='card-element-price'> ${10*((100 * Number(myContext.mark))+(10*Number(myContext.pager))+(5 * Number(myContext.slide) )+ (2* Number(myContext.input))+(100 * Number(myContext.ecom)) +( 10 * Number(myContext.slides))+((Number(myContext.sum1)+Number(myContext.sum2)+Number(myContext.sum3)+Number(myContext.sum4)+Number(myContext.sum5)+Number(myContext.sum6)+Number(myContext.sum7)+Number(myContext.sum8)+Number(myContext.sum9))))}
+        /page </div></div>
       </div>
 
 
@@ -33,7 +34,7 @@ const Cardsec = () => {
         <div className='card-element-about'>The SBA defines a small business as one with 50 or fewer employees who have average gross receipts of $5 million or less jjj$5 million or less $5  </div>
         <div className="card-element-line-design"></div>
         <div className="card-element-price-contaniner">
-        <div className='card-element-price'> ${50*(100 * Number(myContext.mark)+10*Number(myContext.pager)+ 5*Number(myContext.slide) + 2*Number(myContext.input)+100 * Number(myContext.ecom) + 10 * Number(myContext.slides)+Number(myContext.sum1)+Number(myContext.sum2)+Number(myContext.sum3)+Number(myContext.sum4)+Number(myContext.sum5)+Number(myContext.sum6)+Number(myContext.sum7)+Number(myContext.sum8)+Number(myContext.sum9)+Number(myContext.dev))}/page </div></div>
+        <div className='card-element-price'> ${50*((100 * Number(myContext.mark))+(10*Number(myContext.pager))+(5 * Number(myContext.slide) )+ (2* Number(myContext.input))+(100 * Number(myContext.ecom)) +( 10 * Number(myContext.slides))+((Number(myContext.sum1)+Number(myContext.sum2)+Number(myContext.sum3)+Number(myContext.sum4)+Number(myContext.sum5)+Number(myContext.sum6)+Number(myContext.sum7)+Number(myContext.sum8)+Number(myContext.sum9))))}/page </div></div>
       </div>
     
       <div className='card-element-body-1'  >
@@ -42,7 +43,7 @@ const Cardsec = () => {
         <div className='card-element-about'>  A development company is a business that provides services in the real estate sector. Its a legal entity with its own management and employees. </div>
         <div className="card-element-line-design"></div>
         <div className="card-element-price-contaniner">
-        <div className='card-element-price'> ${100*(100 * Number(myContext.mark)+10*Number(myContext.pager)+ 5*Number(myContext.slide) + 2*Number(myContext.input)+100 * Number(myContext.ecom) + 10 * Number(myContext.slides)+Number(myContext.sum1)+Number(myContext.sum2)+Number(myContext.sum3)+Number(myContext.sum4)+Number(myContext.sum5)+Number(myContext.sum6)+Number(myContext.sum7)+Number(myContext.sum8)+Number(myContext.sum9)+Number(myContext.dev))}/page </div></div>
+        <div className='card-element-price'> ${100*((100 * Number(myContext.mark))+(10*Number(myContext.pager))+(5 * Number(myContext.slide) )+ (2* Number(myContext.input))+(100 * Number(myContext.ecom)) +( 10 * Number(myContext.slides))+((Number(myContext.sum1)+Number(myContext.sum2)+Number(myContext.sum3)+Number(myContext.sum4)+Number(myContext.sum5)+Number(myContext.sum6)+Number(myContext.sum7)+Number(myContext.sum8)+Number(myContext.sum9))))}/page </div></div>
       </div>
     
     
