@@ -9,16 +9,19 @@ import Price from './components/Price/Price'
 import Cardsec from './components/Development/Cardsec';
 import Pdf from './components/Price/Pdf';
 import { jsPDF } from "jspdf";
+import Doc from './components/Doc/Doc'
+import Form from './components/Form/Form';
 
 
 function App() {
+
   const [mark, setMark] = React.useState(10);
   const [pager, setPager] = React.useState(5);
+
   const [slide, setSlide] = React.useState(0);
   const[input,setInput]=React.useState(0);
   const [ecom, setEcom] = React.useState(0);
   const [slides, setSlides] = React.useState(0);
-  const [dev,setDev]=React.useState(0);
 
   const [sum1, updateSum1] = React.useState(0);
   const [sum2, updateSum2] = React.useState(0);
@@ -77,7 +80,6 @@ function App() {
   }
 
 
-  
 
   const tfiRate = [
     { value: 0 },
@@ -138,6 +140,43 @@ function App() {
 
     }
   ]
+  const [fname, setFname] = React.useState();
+  const [lname, setLname] = React.useState();
+  const [cemail, setCemail] = React.useState();
+  const [phone, setPhone] = React.useState();
+  const [mob, setMob] = React.useState();
+    
+  const firstname = (e) => {
+    console.log(e.target.value)
+    setFname(e.target.value);
+  }
+  const lastname = (e) => {
+    setLname(e.target.value);
+  }
+  const clientEmail = (e) => {
+    setCemail(e.target.value);
+  }
+  const clientPhone = (e) => {
+    setPhone(e.target.value);
+  }
+  const Mob= (e) => {
+    setMob(e.target.value);
+  }
+  
+const [accept,setAccept]=React.useState(false);
+const handleChange=(e)=>{
+setAccept(e.target.checked);
+if(accept==false){
+  setMob(phone);
+}
+if(accept===true){
+  setMob('')
+}
+}
+
+ 
+
+
 
   const SliderChange = (event) => {
 
@@ -148,7 +187,7 @@ function App() {
   }
 /////
 
-
+// var a=79;
 
     const SliderChangee = (event) => {
         setSlide(event.target.value);
@@ -156,6 +195,9 @@ function App() {
       const ChangeInput=(event)=>{
         setInput(event.target.value);
       }
+const sameAsphone=()=>{
+  setMob(phone)
+}
 
  ///////
   const markd=[
@@ -207,19 +249,6 @@ function App() {
     , { value: 105 }
   ]
 
- 
-
- const ChangeCardPrice1=()=>{
-  setDev(10);
- }
- const ChangeCardPrice2=()=>{
-  setDev(100);
- }
- const ChangeCardPrice3=()=>{
-  setDev(1000);
- }
-
-
 
 const userSettings = {
   //webdesign part
@@ -245,10 +274,19 @@ const userSettings = {
  sum8:sum8,
  sum9:sum9,
 
- //dev
- dev:dev,
-
-
+//form
+fname:fname,
+lname:lname,
+cemail:cemail,
+phone:phone,
+mob:mob,
+accept:accept,
+firstname,
+lastname ,
+clientEmail,
+clientPhone,
+Mob,
+handleChange,
  toggleChange1,
  toggleChange2,
  toggleChange3,
@@ -259,11 +297,7 @@ const userSettings = {
  toggleChange8,
  toggleChange9,
 
- //dev
- ChangeCardPrice3,
- ChangeCardPrice1,
- ChangeCardPrice2,
-
+ sameAsphone,
 
 
 //ecom
@@ -288,38 +322,47 @@ updateSum7,
 updateSum8,
 updateSum9,
 
-
 tfiRate,
 twoRate,
 fifRate,
 hunRate,
 fivRate,
-
+setAccept,
     setMark,
     setPager,
+    //form
+    setFname,
+    setLname,
+    setCemail,
+    setPhone,
+    setMob,
+
     marks,
     page,
     setSlide,
     setInput,
     setEcom,
     setSlides,
-    setDev,
     markd,
     product,
     emark,
 
+
  
   };
+
   const myContext = useContext(Context);
+
   return (
    <>
    <Context.Provider value={userSettings}>
-
     <Webdesign/>
     <WebContent />
     <Ecommerce />
     <AddOn />
     <Cardsec />
+    <Form />
+    <Doc />
     {/* <Price /> */}
     {/* <Pdf /> */}
     

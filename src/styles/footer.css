@@ -1,19 +1,19 @@
 .footer{
     background: #031b34;
-    height: 18rem;
+    height: 23rem;
     /* width: 23%; */
     color: white;
     }
 .footer-content{
     text-align: center;
-    margin-left:30rem ;
-    margin-top: 247px;
+    margin-left: 30rem;
+    margin-top: 319px;
     position: absolute;
     font-size: 15px;
 }
+
 .address{
-    /* border: 2px solid white; */
-    width: 144px;
+    width: 234px;
     padding: 26px;
     margin-top: 3rem;
     position: absolute;
@@ -21,29 +21,29 @@
 }
 .contactt{
     /* border: 2px solid white; */
-    width: 23px;
+    width: 204px;
     position: absolute;
-    margin-top: 5rem;
-    margin-left: 63rem;
-    /* padding: 10px; */
+    margin-top: 11rem;
+    margin-left: 58rem;
 }
 .wp-imgg img{
-    width: 33px;
+    width: 28px;
     margin: 2px;
     margin-bottom: 1rem;
 
 }
 .meet-imgg img{
-    width: 33px;
+    width: 28px;
     margin: 2px;
 }
 .get{
-    width: 402px;
+width: 402px;
     font-size: 16px;
     padding: 26px;
     margin-top: 3rem;
     position: absolute;
-    margin-left: 26rem;
+    margin-left: 47rem;
+
 }
 .link1{
     margin-left: 3rem;
@@ -63,9 +63,36 @@ a:hover{
     margin-left: 53px;
     color: white;
     position: absolute;
+    width: 11rem;
     margin-top: 11px;
 }
+.scro-logo{
+    margin-top: -4rem;
+    width: 5rem;
+}
+.scro-logo img{
+    width: 10rem;
+}
+.scro-content{
 
+    margin-left: 1rem;
+    margin-top: -4rem;
+}
+.social-handle-container {
+    /* border: 2px solid red; */
+    width: 150px;
+    position: absolute;
+    margin-left: 32rem;
+    text-align: center;
+    margin-top: 5rem;}
+.social-handle-heading{
+    margin-bottom: 6px;
+}
+.social-handles img{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
 
 @media (min-width:320px) and (max-width: 480px) {
     .footer {

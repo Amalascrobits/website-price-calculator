@@ -130,10 +130,13 @@ border-bottom:2px solid rgb(30, 129, 222);
 
 .price{
     margin-left: 55rem;
+    /* border: 1px solid rgb(33, 155, 216); */
     padding: 0px 15px;
-    margin-top: 4rem;
-    color: #fefefe;
-    font-size: 26px;
+    /* margin-left: 856px; */
+    font-size: 25px;
+    margin-top: 3.8rem;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
