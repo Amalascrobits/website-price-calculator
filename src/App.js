@@ -164,6 +164,7 @@ function App() {
   }
   
 const [accept,setAccept]=React.useState(false);
+
 const handleChange=(e)=>{
 setAccept(e.target.checked);
 if(accept==false){
@@ -362,7 +363,7 @@ setAccept,
     <AddOn />
     <Cardsec />
     <Form />
-    <Doc />
+    {/* <Doc /> */}
     {/* <Price /> */}
     {/* <Pdf /> */}
     

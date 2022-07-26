@@ -16,7 +16,7 @@ let componentRef = useRef();
       <div>
 
         <ReactToPrint
-          trigger={() => <button>Print this out!</button>}
+          trigger={() => <button className="Doc-btn">Submit</button>}
           content={() => componentRef}
         />
 
