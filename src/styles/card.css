@@ -185,6 +185,56 @@
 .line6{
   margin-top: 40rem;
 }
+.conv{
+  position: absolute;
+  font-size: 21px;
+  color: white;
+  margin-top: 17px;
+  margin-left: 2rem;
+}
+.conv1{
+  position: absolute;
+  font-size: 21px;
+  color: white;
+  margin-top: 17px;
+  margin-left: 2rem;
+}
+
+.conv2{
+  position: absolute;
+  font-size: 21px;
+  color: white;
+  margin-top: 17px;
+  margin-left: 2rem;
+}
+.details_dev{
+  color: white;
+  /* border: 2px solid white; */
+  padding: 1px 1rem;
+  position: absolute;
+  margin-top: 27rem;
+  font-size: 19px;
+  margin-left: 22px;
+
+}
+
+  .details_dev1{    color: white;
+    /* border: 2px solid white; */
+    padding: 1px 1rem;
+    position: absolute;
+    margin-top: 27rem;
+    font-size: 19px;
+    margin-left: 20rem;}
+
+    .details_dev2{
+      color: white;
+      /* border: 2px solid white; */
+      padding: 1px 1rem;
+      position: absolute;
+      margin-top: 27rem;
+      font-size: 19px;
+      margin-left: 37rem;
+    }
 
 
 @media (min-width:320px) and (max-width: 480px) {

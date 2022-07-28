@@ -99,6 +99,7 @@ a:hover{
         /* background-color: rgb(166, 226, 14); */
         width: 1047px;
         height: 56rem;
+        
     }
     .contactt{
         margin-left: 23rem;
@@ -106,6 +107,14 @@ a:hover{
     }
     .wp-imgg-img{
         margin-left: 2rem;
+    }
+    .get{
+        width: 233px;
+    font-size: 16px;
+    padding: 26px;
+    margin-top: 3rem;
+    position: absolute;
+    margin-left: 47rem;
     }
 }
 

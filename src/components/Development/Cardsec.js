@@ -3,6 +3,7 @@ import React from 'react'
 import '../../styles/card.css'
 import Context from '../../Context/Context';
 import { useContext } from 'react';
+// import Convprice from '../Currency/Convprice';
 
 const Cardsec = () => {
   const myContext = useContext(Context);
@@ -25,7 +26,13 @@ const Cardsec = () => {
         <div className="card-element-price-contaniner">
         <div className='card-element-price'> ${10*((100 * Number(myContext.mark))+(10*Number(myContext.pager))+(5 * Number(myContext.slide) )+ (2* Number(myContext.input))+(100 * Number(myContext.ecom)) +( 10 * Number(myContext.slides))+((Number(myContext.sum1)+Number(myContext.sum2)+Number(myContext.sum3)+Number(myContext.sum4)+Number(myContext.sum5)+Number(myContext.sum6)+Number(myContext.sum7)+Number(myContext.sum8)+Number(myContext.sum9))))}
         /page </div></div>
+        
       </div>
+    <details className='details_dev'>
+      <summary>INR Converted Price</summary>
+      <div className='conv'>₹{79.8*parseFloat(10*Number(myContext.a))}/page</div> 
+    </details>
+    
 
 
       <div className='card-element-body-1' >
@@ -36,6 +43,10 @@ const Cardsec = () => {
         <div className="card-element-price-contaniner">
         <div className='card-element-price'> ${50*((100 * Number(myContext.mark))+(10*Number(myContext.pager))+(5 * Number(myContext.slide) )+ (2* Number(myContext.input))+(100 * Number(myContext.ecom)) +( 10 * Number(myContext.slides))+((Number(myContext.sum1)+Number(myContext.sum2)+Number(myContext.sum3)+Number(myContext.sum4)+Number(myContext.sum5)+Number(myContext.sum6)+Number(myContext.sum7)+Number(myContext.sum8)+Number(myContext.sum9))))}/page </div></div>
       </div>
+      <details className='details_dev1'>
+      <summary>INR Converted Price</summary>
+      <div className='conv1'>₹{79.8*parseFloat(50*Number(myContext.a))}/page</div> 
+    </details>
     
       <div className='card-element-body-1'  >
         <div className='card-element-name'>MNC</div>
@@ -46,7 +57,10 @@ const Cardsec = () => {
         <div className='card-element-price'> ${100*((100 * Number(myContext.mark))+(10*Number(myContext.pager))+(5 * Number(myContext.slide) )+ (2* Number(myContext.input))+(100 * Number(myContext.ecom)) +( 10 * Number(myContext.slides))+((Number(myContext.sum1)+Number(myContext.sum2)+Number(myContext.sum3)+Number(myContext.sum4)+Number(myContext.sum5)+Number(myContext.sum6)+Number(myContext.sum7)+Number(myContext.sum8)+Number(myContext.sum9))))}/page </div></div>
       </div>
     
-    
+      <details className='details_dev2'>
+      <summary>INR Converted Price</summary>
+      <div className='conv2'>₹{79.8*parseFloat(100*Number(myContext.a))}/page</div> 
+    </details>
      </div>
      
      {/* <div className="line6"></div>
@@ -58,6 +72,8 @@ const Cardsec = () => {
 ${Number(myContext.dev)}
   </div>
 </div> */}
+
+{/* <Convprice /> */}
 
 
      </div>

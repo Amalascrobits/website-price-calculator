@@ -5,6 +5,7 @@ import Testimonials from './components/testimonial/Testimonials';
 import Footer from './components/footer/Footer';
 import App from './App'
 import Chooseus from './components/whychooseus/Chooseus';
+// import Converter from './components/Currency/Converter';
 
 
 
@@ -21,6 +22,7 @@ root.render(
 <Testimonials />
 <Chooseus />
  <Footer/>
+ {/* <Converter /> */}
 
 
 

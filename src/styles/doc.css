@@ -111,8 +111,20 @@ a:hover{
 }
 
 .Doc-btn{
-    color: white;
-font-size: 17px;
+
+        width: 205px;
+        height: 45px;
+        border-radius: 30px;
+        cursor: pointer;
+        margin-left: 9rem;
+        margin-top: -1rem;
+        font-size: large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        background: linear-gradient(to right, rgb(230, 103, 103), purple);
+    
 }
 
 
