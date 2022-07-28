@@ -7,11 +7,28 @@ import Context from '../../Context/Context';
 import { useContext } from 'react';
 import emailjs from 'emailjs-com';
 import Doc from '../Doc/Doc'
+
+
 const Form = () => {
   const myContext = useContext(Context);
 
+   // const myContext = useContext(Context);
+  // const ChangeInput=(e)=>{
+  //   setInput(e.target.value);
+  // }
+  // const onSubmits = (event) => {
+  //   event.preventDefault();
+  // alert("successfully submitted")
+  //
 
+  function sendEmail(e) {
+    e.preventDefault();
 
+    emailjs.sendForm('service_ckomnos', 'template_hfl4h06', e.target, 'sj7VvnNHaFOtlrPfJ').then(res=> {
+      console.log(res);
+    }).catch(err=> console.log(err));
+  }
+  
   return (
     <>
       <div className="form-section">
@@ -21,10 +38,10 @@ const Form = () => {
             <img src={img} alt="k" />
           </div>
           {/* onSubmit={onSubmits} */}
-          <form  >
+          <form  onSubmit={sendEmail} >
             <div className="form-content">
               <div className="txt1">
-                <TextField id="filled-basic" onChange={myContext.firstname} label="Firstname" variant="filled" className="form-input" required
+                <TextField id="filled-basic" onChange={myContext.firstname}  label="Firstname" variant="filled" className="form-input" required
                   sx={{ width: 240, color: 'secondary', input: { color: '#fff' }, label: { color: '#fff' } }} /></div>
 
 
@@ -60,9 +77,10 @@ const Form = () => {
 />      Same as Phone number 
                 
          </div>
-              <button className="form-btn">
+    
+              {/* <button className="form-btn"> */}
               <Doc /> 
-              </button>
+              {/* </button> */}
           
             </div>
           </form>

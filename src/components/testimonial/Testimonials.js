@@ -23,14 +23,6 @@ const data = [
       "A perfect and elegant company which can provide the business solutions up to the mark. Website is so convincing that any of the client can trust on the company easily 👍",
   },
   {
-    id: 1,
-    image: Image1,
-    title: "Prasad Desai",
-    subtitle: "Product designer at Dribble",
-    comment:
-      "A perfect and elegant company which can provide the business solutions up to the mark. Website is so convincing that any of the client can trust on the company easily 👍",
-  },
-  {
     id: 2,
     image: Image1,
     title: "Prasad Desai",
@@ -48,6 +40,14 @@ const data = [
   },
   {
     id: 4,
+    image: Image1,
+    title: "Prasad Desai",
+    subtitle: "Product designer at Dribble",
+    comment:
+      "A perfect and elegant company which can provide the business solutions up to the mark. Website is so convincing that any of the client can trust on the company easily 👍",
+  },
+  {
+    id: 5,
     image: Image3,
     title: "Parth Bhosale",
     subtitle: "Product designer at Dribble",

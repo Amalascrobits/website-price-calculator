@@ -11,6 +11,7 @@ import Pdf from './components/Price/Pdf';
 import { jsPDF } from "jspdf";
 import Doc from './components/Doc/Doc'
 import Form from './components/Form/Form';
+import Convprice from './components/Currency/Convprice';
 
 
 function App() {
@@ -249,7 +250,8 @@ const sameAsphone=()=>{
     , { value: 80  }
     , { value: 105 }
   ]
-
+  
+var a=((100 * Number(mark))+(10*Number(pager))+(5 * Number(slide) )+ (2* Number(input))+(100 * Number(ecom)) +( 10 * Number(slides))+((Number(sum1)+Number(sum2)+Number(sum3)+Number(sum4)+Number(sum5)+Number(sum6)+Number(sum7)+Number(sum8)+Number(sum9))))
 
 const userSettings = {
   //webdesign part
@@ -263,7 +265,7 @@ const userSettings = {
 //eccomerce part
  ecom:ecom,
  slides:slides,
-
+a,
 //addon part
  sum1:sum1,
  sum2:sum2,
@@ -363,6 +365,7 @@ setAccept,
     <AddOn />
     <Cardsec />
     <Form />
+    {/* <Convprice value={a} /> */}
     {/* <Doc /> */}
     {/* <Price /> */}
     {/* <Pdf /> */}
