@@ -215,6 +215,7 @@
   margin-top: 27rem;
   font-size: 19px;
   margin-left: 22px;
+  cursor: pointer;
 
 }
 
@@ -224,7 +225,9 @@
     position: absolute;
     margin-top: 27rem;
     font-size: 19px;
-    margin-left: 20rem;}
+    margin-left: 20rem;
+    cursor: pointer;
+  }
 
     .details_dev2{
       color: white;
@@ -234,6 +237,7 @@
       margin-top: 27rem;
       font-size: 19px;
       margin-left: 37rem;
+      cursor: pointer;
     }
 
 
