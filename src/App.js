@@ -169,6 +169,7 @@ const [accept,setAccept]=React.useState(false);
 const handleChange=(e)=>{
 setAccept(e.target.checked);
 if(accept==false){
+
   setMob(phone);
 }
 if(accept===true){

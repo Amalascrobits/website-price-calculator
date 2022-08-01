@@ -63,6 +63,7 @@ const Testimonials = () => {
     <section className='testimonials-container-section' >
       <h2 className='scetion__title' >Clients and Reviews </h2>
       <div className="swipper-container">
+        <div className='testimonial-body'>
       <Swiper className='textimonials__container grid'
       // install Swiper modules
       modules={[Pagination]}
@@ -89,7 +90,7 @@ const Testimonials = () => {
             </SwiperSlide>
           )
         })}
-      </Swiper></div>
+      </Swiper></div></div>
   
 
       
