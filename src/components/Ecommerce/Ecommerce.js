@@ -7,7 +7,7 @@ import { useContext } from 'react';
 
 const Ecommerce = () => {
     const myContext = useContext(Context);
-    var a=1000;
+    // var a=1000;
     
 
   return (
@@ -92,7 +92,7 @@ const Ecommerce = () => {
               E-commerce cost :
             </div>
             <div className="ecom-pricee">
-              ${(a * Number(myContext.ecom)) + (a * Number(myContext.slides))}
+              ${(100 * Number(myContext.ecom)) + (10* Number(myContext.slides))}
             </div>
           </div>
         </div>

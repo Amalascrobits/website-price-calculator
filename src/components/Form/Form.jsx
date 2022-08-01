@@ -44,10 +44,14 @@ const Form = () => {
                 <TextField id="filled-basic" onChange={myContext.firstname}  label="Firstname" variant="filled" className="form-input" required
                   sx={{ width: 240, color: 'secondary', input: { color: '#fff' }, label: { color: '#fff' } }} /></div>
 
-
-              <div className="txt2">
-                <TextField id="filled-basic" onChange={myContext.lastname} label="Lastname" variant="filled" className="form-input" required
+                        <div className="txt1">
+                <TextField id="filled-basic" onChange={myContext.lastname}  label="Lastname" variant="filled" className="form-input" required
                   sx={{ width: 240, color: 'secondary', input: { color: '#fff' }, label: { color: '#fff' } }} /></div>
+
+
+              {/* <div className="txt2">
+                <TextField id="filled-basic" onChange={myContext.lastname} label="Lastname" variant="filled" className="form-input" required
+                  sx={{ width: 240, color: 'secondary', input: { color: '#fff' }, label: { color: '#fff' } }} /></div> */}
 
               <div className="txt3">
                 <TextField id="filled-basic" onChange={myContext.clientEmail} label="Email" variant="filled" className="form-input"
@@ -68,6 +72,7 @@ const Form = () => {
                   <Checkbox
   checked={myContext.accept}
   onChange={myContext.handleChange}
+
   inputProps={{ 'aria-label': 'controlled' }}
   sx={{
     color: "white",

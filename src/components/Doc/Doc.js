@@ -68,7 +68,7 @@ We have been in this industry for more than 3 years, we are professional and exp
         <tr>
           <td className="doc-td">2.</td>
           <td className="doc-td"> Ecommerce cost</td>
-          <td className="doc-td">{`${(100 *Number(this.context.ecom))+ (10 * Number(this.context.slides))}`}</td>
+          <td className="doc-td">{`${(100 *Number(this.context.ecom))+ (10* Number(this.context.slides))}`}</td>
         </tr>
         <tr>
           <td className="doc-td">3.</td>
